@@ -1,5 +1,5 @@
 -- Build a boat
--- Version: 2.3
+-- Version: 2.3.2
 
 local OopssGui = Instance.new("ScreenGui")
 local Loading = Instance.new("Folder")
@@ -195,7 +195,6 @@ menu.BackgroundTransparency = 0.100
 menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
 menu.Position = UDim2.new(0.5, 0, 0.200000003, 5)
 menu.Size = UDim2.new(0, 300, 0, 467)
-menu.Visible = false
 
 UICorner_4.CornerRadius = UDim.new(0.100000001, 15)
 UICorner_4.Parent = menu
@@ -385,8 +384,7 @@ Water.Font = Enum.Font.GothamBold
 Water.LineHeight = 0.000
 Water.Text = "Remove water damage"
 Water.TextColor3 = Color3.fromRGB(0, 0, 0)
-Water.TextScaled = true
-Water.TextSize = 10.000
+Water.TextSize = 20.000
 Water.TextWrapped = true
 Water.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -403,8 +401,7 @@ JumpText.Font = Enum.Font.GothamBold
 JumpText.LineHeight = 0.000
 JumpText.Text = "Jump Power"
 JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
-JumpText.TextScaled = true
-JumpText.TextSize = 10.000
+JumpText.TextSize = 22.000
 JumpText.TextWrapped = true
 
 UICorner_16.CornerRadius = UDim.new(0, 10)
@@ -507,8 +504,7 @@ SpeedText.Font = Enum.Font.GothamBold
 SpeedText.LineHeight = 0.000
 SpeedText.Text = "Walk Speed"
 SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
-SpeedText.TextScaled = true
-SpeedText.TextSize = 10.000
+SpeedText.TextSize = 22.000
 SpeedText.TextWrapped = true
 
 UICorner_22.CornerRadius = UDim.new(0, 10)
@@ -628,7 +624,7 @@ Sad.Image = "http://www.roblox.com/asset/?id=8187018140"
 
 -- Scripts:
 
-local function CJTAV_fake_script() -- OopssGui.Start 
+local function JRHHM_fake_script() -- OopssGui.Start 
 	local script = Instance.new('LocalScript', OopssGui)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
@@ -639,8 +635,8 @@ local function CJTAV_fake_script() -- OopssGui.Start
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(CJTAV_fake_script)()
-local function OXBWX_fake_script() -- Frame.Client 
+coroutine.wrap(JRHHM_fake_script)()
+local function ZLTTOQX_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -675,8 +671,8 @@ local function OXBWX_fake_script() -- Frame.Client
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(OXBWX_fake_script)()
-local function VGWGEB_fake_script() -- GUI.Normal 
+coroutine.wrap(ZLTTOQX_fake_script)()
+local function AOLVML_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -699,8 +695,8 @@ local function VGWGEB_fake_script() -- GUI.Normal
 		wait(1)
 	end
 end
-coroutine.wrap(VGWGEB_fake_script)()
-local function YLNCPFF_fake_script() -- GUI.Only gold block 
+coroutine.wrap(AOLVML_fake_script)()
+local function FKGS_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -723,8 +719,8 @@ local function YLNCPFF_fake_script() -- GUI.Only gold block
 		wait(1)
 	end
 end
-coroutine.wrap(YLNCPFF_fake_script)()
-local function LHEVUSL_fake_script() -- GUI.Teleport 
+coroutine.wrap(FKGS_fake_script)()
+local function XZAVCI_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -768,8 +764,8 @@ local function LHEVUSL_fake_script() -- GUI.Teleport
 		wait(1)
 	end
 end
-coroutine.wrap(LHEVUSL_fake_script)()
-local function HFBF_fake_script() -- OopssGui_2.LocalScript 
+coroutine.wrap(XZAVCI_fake_script)()
+local function PXQCXKW_fake_script() -- OopssGui_2.LocalScript 
 	local script = Instance.new('LocalScript', OopssGui_2)
 
 	local stats = false
@@ -797,8 +793,8 @@ local function HFBF_fake_script() -- OopssGui_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(HFBF_fake_script)()
-local function DBACQEY_fake_script() -- GUI.Fast 
+coroutine.wrap(PXQCXKW_fake_script)()
+local function THKEAU_fake_script() -- GUI.Fast 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -821,8 +817,8 @@ local function DBACQEY_fake_script() -- GUI.Fast
 		wait(1)
 	end
 end
-coroutine.wrap(DBACQEY_fake_script)()
-local function IKSXEDV_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(THKEAU_fake_script)()
+local function HLXATXP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -833,8 +829,8 @@ local function IKSXEDV_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IKSXEDV_fake_script)()
-local function EOCMY_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(HLXATXP_fake_script)()
+local function YFTDKKQ_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -845,8 +841,8 @@ local function EOCMY_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(EOCMY_fake_script)()
-local function SFSQES_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(YFTDKKQ_fake_script)()
+local function IHVNN_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -857,8 +853,8 @@ local function SFSQES_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SFSQES_fake_script)()
-local function JYMK_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(IHVNN_fake_script)()
+local function HVUBAOY_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -869,16 +865,16 @@ local function JYMK_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JYMK_fake_script)()
-local function MMHGPA_fake_script() -- Water.LocalScript 
+coroutine.wrap(HVUBAOY_fake_script)()
+local function STXXLXN_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(MMHGPA_fake_script)()
-local function FFDHN_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(STXXLXN_fake_script)()
+local function JSTPXF_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -886,8 +882,8 @@ local function FFDHN_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(FFDHN_fake_script)()
-local function KFXRN_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(JSTPXF_fake_script)()
+local function SMYM_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -896,8 +892,8 @@ local function KFXRN_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(KFXRN_fake_script)()
-local function XGKZG_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(SMYM_fake_script)()
+local function UJEUFY_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -916,8 +912,8 @@ local function XGKZG_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(XGKZG_fake_script)()
-local function HVZSZRU_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(UJEUFY_fake_script)()
+local function XCAAXV_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -929,4 +925,4 @@ local function HVZSZRU_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGui:Destroy()
 	end)
 end
-coroutine.wrap(HVZSZRU_fake_script)()
+coroutine.wrap(XCAAXV_fake_script)()
