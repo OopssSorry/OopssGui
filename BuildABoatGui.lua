@@ -1,5 +1,6 @@
 -- Build a boat
--- Version: 3.2.4
+-- Version: 2.3.5
+
 
 local OopssGui = Instance.new("ScreenGui")
 local Loading = Instance.new("Folder")
@@ -72,6 +73,7 @@ local UICorner_25 = Instance.new("UICorner")
 local Credits_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
+local TextLabel_5 = Instance.new("TextLabel")
 local Text = Instance.new("TextLabel")
 local Fade = Instance.new("Frame")
 local Sad = Instance.new("ImageLabel")
@@ -195,6 +197,7 @@ menu.BackgroundTransparency = 0.100
 menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
 menu.Position = UDim2.new(0.5, 0, 0.200000003, 5)
 menu.Size = UDim2.new(0, 300, 0, 467)
+menu.Visible = false
 
 UICorner_4.CornerRadius = UDim.new(0.100000001, 15)
 UICorner_4.Parent = menu
@@ -228,7 +231,7 @@ Normal.Name = "Normal"
 Normal.Parent = Autofarm
 Normal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Normal.BackgroundTransparency = 1.000
-Normal.Position = UDim2.new(0.0337552726, 0, 0.260475636, 0)
+Normal.Position = UDim2.new(0.0340000018, 0, 0.289999992, 0)
 Normal.Size = UDim2.new(0, 229, 0, 23)
 Normal.Font = Enum.Font.SourceSans
 Normal.Text = "Normal:"
@@ -381,7 +384,6 @@ Water.BackgroundTransparency = 0.800
 Water.Position = UDim2.new(0.0339999311, 0, 0.207104817, 0)
 Water.Size = UDim2.new(0, 225, 0, 21)
 Water.Font = Enum.Font.GothamBold
-Water.LineHeight = 0.000
 Water.Text = "Remove water damage"
 Water.TextColor3 = Color3.fromRGB(0, 0, 0)
 Water.TextSize = 20.000
@@ -398,7 +400,6 @@ JumpText.BackgroundTransparency = 0.800
 JumpText.Position = UDim2.new(0.0339999311, 0, 0.550722837, 0)
 JumpText.Size = UDim2.new(0, 130, 0, 21)
 JumpText.Font = Enum.Font.GothamBold
-JumpText.LineHeight = 0.000
 JumpText.Text = "Jump Power"
 JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpText.TextSize = 22.000
@@ -501,7 +502,6 @@ SpeedText.BackgroundTransparency = 0.800
 SpeedText.Position = UDim2.new(0.0339999311, 0, 0.375807047, 0)
 SpeedText.Size = UDim2.new(0, 130, 0, 21)
 SpeedText.Font = Enum.Font.GothamBold
-SpeedText.LineHeight = 0.000
 SpeedText.Text = "Walk Speed"
 SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpeedText.TextSize = 22.000
@@ -572,11 +572,11 @@ Credits_2.TextWrapped = true
 TextLabel_3.Parent = Credits
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.0337552726, 0, 0.372093022, 0)
-TextLabel_3.Size = UDim2.new(0, 221, 0, 23)
+TextLabel_3.Position = UDim2.new(0.405063301, 0, 0.372093022, 0)
+TextLabel_3.Size = UDim2.new(0, 133, 0, 23)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Oopss-Sorry"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 200, 0)
+TextLabel_3.Text = "(@Maks00277)"
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 187, 255)
 TextLabel_3.TextSize = 20.000
 TextLabel_3.TextWrapped = true
 TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
@@ -593,6 +593,18 @@ TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.TextSize = 20.000
 TextLabel_4.TextWrapped = true
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_5.Parent = Credits
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.Position = UDim2.new(0.0337552726, 0, 0.372093022, 0)
+TextLabel_5.Size = UDim2.new(0, 221, 0, 23)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Oopss-Sorry"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 200, 0)
+TextLabel_5.TextSize = 20.000
+TextLabel_5.TextWrapped = true
+TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
 
 Text.Name = "Text"
 Text.Parent = menu
@@ -617,14 +629,15 @@ Sad.Name = "Sad"
 Sad.Parent = OopssGui
 Sad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Sad.BackgroundTransparency = 1.000
-Sad.Position = UDim2.new(0.568000019, 0, 0.377000004, 0)
+Sad.Position = UDim2.new(0.467999995, 0, 0.377000004, 0)
 Sad.Size = UDim2.new(0, 200, 0, 200)
 Sad.Visible = false
+Sad.ZIndex = 12
 Sad.Image = "http://www.roblox.com/asset/?id=8187018140"
 
 -- Scripts:
 
-local function MJLSD_fake_script() -- OopssGui.Start 
+local function WVNYMBH_fake_script() -- OopssGui.Start 
 	local script = Instance.new('LocalScript', OopssGui)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
@@ -635,8 +648,8 @@ local function MJLSD_fake_script() -- OopssGui.Start
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(MJLSD_fake_script)()
-local function NLYZ_fake_script() -- Frame.Client 
+coroutine.wrap(WVNYMBH_fake_script)()
+local function AHWPV_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -671,8 +684,8 @@ local function NLYZ_fake_script() -- Frame.Client
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(NLYZ_fake_script)()
-local function MQQCQ_fake_script() -- GUI.Normal 
+coroutine.wrap(AHWPV_fake_script)()
+local function HDOVO_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -695,8 +708,8 @@ local function MQQCQ_fake_script() -- GUI.Normal
 		wait(1)
 	end
 end
-coroutine.wrap(MQQCQ_fake_script)()
-local function IHFFT_fake_script() -- GUI.Only gold block 
+coroutine.wrap(HDOVO_fake_script)()
+local function JEJDZYW_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -719,8 +732,8 @@ local function IHFFT_fake_script() -- GUI.Only gold block
 		wait(1)
 	end
 end
-coroutine.wrap(IHFFT_fake_script)()
-local function GHCL_fake_script() -- GUI.Teleport 
+coroutine.wrap(JEJDZYW_fake_script)()
+local function ZODOU_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -764,8 +777,8 @@ local function GHCL_fake_script() -- GUI.Teleport
 		wait(1)
 	end
 end
-coroutine.wrap(GHCL_fake_script)()
-local function JTTILYU_fake_script() -- OopssGui_2.LocalScript 
+coroutine.wrap(ZODOU_fake_script)()
+local function DRLX_fake_script() -- OopssGui_2.LocalScript 
 	local script = Instance.new('LocalScript', OopssGui_2)
 
 	local stats = false
@@ -793,8 +806,8 @@ local function JTTILYU_fake_script() -- OopssGui_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(JTTILYU_fake_script)()
-local function HPAZP_fake_script() -- GUI.Fast 
+coroutine.wrap(DRLX_fake_script)()
+local function PEFZ_fake_script() -- GUI.Fast 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -808,7 +821,8 @@ local function HPAZP_fake_script() -- GUI.Fast
 			end
 			function Repeat()
 				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
-				Tween(6,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(4,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 80))
 				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 20, -5))
 				wait(14.5)
 			end
@@ -817,8 +831,8 @@ local function HPAZP_fake_script() -- GUI.Fast
 		wait(1)
 	end
 end
-coroutine.wrap(HPAZP_fake_script)()
-local function PQUSXK_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(PEFZ_fake_script)()
+local function KVKHQJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -829,8 +843,8 @@ local function PQUSXK_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PQUSXK_fake_script)()
-local function SBTGH_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(KVKHQJ_fake_script)()
+local function IUQPC_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -841,8 +855,8 @@ local function SBTGH_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SBTGH_fake_script)()
-local function CINFHN_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(IUQPC_fake_script)()
+local function QSVBE_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -853,8 +867,8 @@ local function CINFHN_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CINFHN_fake_script)()
-local function SCYQF_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(QSVBE_fake_script)()
+local function OCQDG_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -865,16 +879,16 @@ local function SCYQF_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SCYQF_fake_script)()
-local function RDCKSV_fake_script() -- Water.LocalScript 
+coroutine.wrap(OCQDG_fake_script)()
+local function AHQVA_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(RDCKSV_fake_script)()
-local function VBLD_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(AHQVA_fake_script)()
+local function JEJER_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -882,8 +896,8 @@ local function VBLD_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(VBLD_fake_script)()
-local function XDYLVO_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(JEJER_fake_script)()
+local function WSSKJZS_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -892,8 +906,8 @@ local function XDYLVO_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(XDYLVO_fake_script)()
-local function KISR_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(WSSKJZS_fake_script)()
+local function SWOOYMY_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	script.Parent.MouseButton1Click:connect(function(set)
@@ -912,8 +926,8 @@ local function KISR_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(KISR_fake_script)()
-local function CEQPYAA_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(SWOOYMY_fake_script)()
+local function IUPRAN_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -925,4 +939,4 @@ local function CEQPYAA_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGui:Destroy()
 	end)
 end
-coroutine.wrap(CEQPYAA_fake_script)()
+coroutine.wrap(IUPRAN_fake_script)()
