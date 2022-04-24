@@ -1,3 +1,6 @@
+-- Build a boat gui
+-- Version: 2.2
+
 local OopssGui = Instance.new("ScreenGui")
 local Loading = Instance.new("Folder")
 local Frame = Instance.new("Frame")
@@ -44,14 +47,31 @@ local UICorner_13 = Instance.new("UICorner")
 local Other = Instance.new("Frame")
 local UICorner_14 = Instance.new("UICorner")
 local Other_2 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local Water = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local Credits = Instance.new("Frame")
+local JumpText = Instance.new("TextLabel")
 local UICorner_16 = Instance.new("UICorner")
+local SetSpeed = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local SetPower = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Speed = Instance.new("TextBox")
+local UICorner_19 = Instance.new("UICorner")
+local Power = Instance.new("TextBox")
+local UICorner_20 = Instance.new("UICorner")
+local TeleportButton = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local SpeedText = Instance.new("TextLabel")
+local UICorner_22 = Instance.new("UICorner")
+local Teleport_2 = Instance.new("TextBox")
+local UICorner_23 = Instance.new("UICorner")
+local Credits = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
 local Credits_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local TextLabel_4 = Instance.new("TextLabel")
 local TextLabel_5 = Instance.new("TextLabel")
+local Fade = Instance.new("Frame")
 
 --Properties:
 
@@ -67,7 +87,7 @@ Frame.Parent = Loading
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.300000012, 0, -1, 0)
 Frame.Size = UDim2.new(0, 500, 0, 129)
-Frame.ZIndex = 2
+Frame.ZIndex = 4
 
 UICorner.CornerRadius = UDim.new(0, 20)
 UICorner.Parent = Frame
@@ -132,6 +152,7 @@ ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.BackgroundTransparency = 1.000
 ImageLabel.Position = UDim2.new(0.300000012, 0, -1, 0)
 ImageLabel.Size = UDim2.new(0, 500, 0, 250)
+ImageLabel.ZIndex = 3
 ImageLabel.Image = "http://www.roblox.com/asset/?id=4918182882"
 
 UICorner_2.CornerRadius = UDim.new(0, 20)
@@ -170,7 +191,7 @@ menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 menu.BackgroundTransparency = 0.100
 menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
 menu.Position = UDim2.new(0.5, 0, 0.200000003, 5)
-menu.Size = UDim2.new(0, 300, 0, 409)
+menu.Size = UDim2.new(0, 300, 0, 467)
 menu.Visible = false
 
 UICorner_4.CornerRadius = UDim.new(0.100000001, 15)
@@ -333,8 +354,8 @@ Other.Name = "Other"
 Other.Parent = menu
 Other.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Other.BackgroundTransparency = 0.900
-Other.Position = UDim2.new(0.103333332, 0, 0.457544446, 0)
-Other.Size = UDim2.new(0, 237, 0, 86)
+Other.Position = UDim2.new(0.103000082, 0, 0.399999976, 0)
+Other.Size = UDim2.new(0, 237, 0, 143)
 
 UICorner_14.CornerRadius = UDim.new(0, 15)
 UICorner_14.Parent = Other
@@ -351,20 +372,161 @@ Other_2.TextScaled = true
 Other_2.TextSize = 14.000
 Other_2.TextWrapped = true
 
-TextButton.Parent = Other
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BackgroundTransparency = 0.800
-TextButton.Position = UDim2.new(0.0339999311, 0, 0.312000006, 0)
-TextButton.Size = UDim2.new(0, 220, 0, 23)
-TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Remove water damage"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.TextScaled = true
-TextButton.TextSize = 10.000
-TextButton.TextWrapped = true
+Water.Name = "Water"
+Water.Parent = Other
+Water.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Water.BackgroundTransparency = 0.800
+Water.Position = UDim2.new(0.0339999311, 0, 0.207104877, 0)
+Water.Size = UDim2.new(0, 225, 0, 25)
+Water.Font = Enum.Font.GothamBold
+Water.Text = "Remove water damage"
+Water.TextColor3 = Color3.fromRGB(0, 0, 0)
+Water.TextScaled = true
+Water.TextSize = 10.000
+Water.TextWrapped = true
+Water.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_15.CornerRadius = UDim.new(0, 10)
-UICorner_15.Parent = TextButton
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = Water
+
+JumpText.Name = "JumpText"
+JumpText.Parent = Other
+JumpText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+JumpText.BackgroundTransparency = 0.800
+JumpText.Position = UDim2.new(0.0340000018, 0, 0.600000024, 0)
+JumpText.Size = UDim2.new(0, 130, 0, 25)
+JumpText.Font = Enum.Font.GothamBold
+JumpText.Text = "Jump Power"
+JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpText.TextScaled = true
+JumpText.TextSize = 10.000
+JumpText.TextWrapped = true
+
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = JumpText
+
+SetSpeed.Name = "SetSpeed"
+SetSpeed.Parent = Other
+SetSpeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetSpeed.BackgroundTransparency = 0.800
+SetSpeed.Position = UDim2.new(0.589999974, 0, 0.400000006, 0)
+SetSpeed.Size = UDim2.new(0, 40, 0, 25)
+SetSpeed.Font = Enum.Font.GothamSemibold
+SetSpeed.Text = "Set"
+SetSpeed.TextColor3 = Color3.fromRGB(0, 0, 0)
+SetSpeed.TextScaled = true
+SetSpeed.TextSize = 10.000
+SetSpeed.TextWrapped = true
+SetSpeed.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = SetSpeed
+
+SetPower.Name = "SetPower"
+SetPower.Parent = Other
+SetPower.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SetPower.BackgroundTransparency = 0.800
+SetPower.Position = UDim2.new(0.589999974, 0, 0.600000024, 0)
+SetPower.Size = UDim2.new(0, 40, 0, 25)
+SetPower.Font = Enum.Font.GothamSemibold
+SetPower.Text = "Set"
+SetPower.TextColor3 = Color3.fromRGB(0, 0, 0)
+SetPower.TextScaled = true
+SetPower.TextSize = 10.000
+SetPower.TextWrapped = true
+SetPower.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_18.CornerRadius = UDim.new(0, 10)
+UICorner_18.Parent = SetPower
+
+Speed.Name = "Speed"
+Speed.Parent = Other
+Speed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BackgroundTransparency = 0.800
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.769999981, 0, 0.400000006, 0)
+Speed.Size = UDim2.new(0, 50, 0, 25)
+Speed.Font = Enum.Font.GothamBold
+Speed.Text = "16"
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextScaled = true
+Speed.TextSize = 10.000
+Speed.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = Speed
+
+Power.Name = "Power"
+Power.Parent = Other
+Power.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Power.BackgroundTransparency = 0.800
+Power.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Power.BorderSizePixel = 0
+Power.Position = UDim2.new(0.769999981, 0, 0.600000024, 0)
+Power.Size = UDim2.new(0, 50, 0, 25)
+Power.Font = Enum.Font.GothamBold
+Power.Text = "50"
+Power.TextColor3 = Color3.fromRGB(0, 0, 0)
+Power.TextScaled = true
+Power.TextSize = 10.000
+Power.TextWrapped = true
+
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = Power
+
+TeleportButton.Name = "TeleportButton"
+TeleportButton.Parent = Other
+TeleportButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TeleportButton.BackgroundTransparency = 0.800
+TeleportButton.Position = UDim2.new(0.0340000018, 0, 0.800000012, 0)
+TeleportButton.Size = UDim2.new(0, 130, 0, 25)
+TeleportButton.Font = Enum.Font.GothamSemibold
+TeleportButton.Text = "Teleport to"
+TeleportButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TeleportButton.TextScaled = true
+TeleportButton.TextSize = 10.000
+TeleportButton.TextWrapped = true
+TeleportButton.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_21.CornerRadius = UDim.new(0, 10)
+UICorner_21.Parent = TeleportButton
+
+SpeedText.Name = "SpeedText"
+SpeedText.Parent = Other
+SpeedText.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SpeedText.BackgroundTransparency = 0.800
+SpeedText.Position = UDim2.new(0.0339999311, 0, 0.400000095, 0)
+SpeedText.Size = UDim2.new(0, 130, 0, 25)
+SpeedText.Font = Enum.Font.GothamBold
+SpeedText.Text = "Walk Speed"
+SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedText.TextScaled = true
+SpeedText.TextSize = 10.000
+SpeedText.TextWrapped = true
+
+UICorner_22.CornerRadius = UDim.new(0, 10)
+UICorner_22.Parent = SpeedText
+
+Teleport_2.Name = "Teleport"
+Teleport_2.Parent = Other
+Teleport_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleport_2.BackgroundTransparency = 0.800
+Teleport_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport_2.BorderSizePixel = 0
+Teleport_2.Position = UDim2.new(0.600000024, 0, 0.800000012, 0)
+Teleport_2.Size = UDim2.new(0, 90, 0, 25)
+Teleport_2.Font = Enum.Font.GothamBold
+Teleport_2.PlaceholderColor3 = Color3.fromRGB(0, 0, 0)
+Teleport_2.PlaceholderText = "Player name"
+Teleport_2.Text = ""
+Teleport_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Teleport_2.TextScaled = true
+Teleport_2.TextSize = 10.000
+Teleport_2.TextWrapped = true
+
+UICorner_23.CornerRadius = UDim.new(0, 5)
+UICorner_23.Parent = Teleport_2
 
 Credits.Name = "Credits"
 Credits.Parent = menu
@@ -373,8 +535,8 @@ Credits.BackgroundTransparency = 0.900
 Credits.Position = UDim2.new(0.103333332, 0, 0.71681422, 0)
 Credits.Size = UDim2.new(0, 237, 0, 86)
 
-UICorner_16.CornerRadius = UDim.new(0, 15)
-UICorner_16.Parent = Credits
+UICorner_24.CornerRadius = UDim.new(0, 15)
+UICorner_24.Parent = Credits
 
 Credits_2.Name = "Credits"
 Credits_2.Parent = Credits
@@ -422,20 +584,30 @@ TextLabel_5.Text = "Build a boat v2"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextSize = 39.000
 
+Fade.Name = "Fade"
+Fade.Parent = OopssGui
+Fade.AnchorPoint = Vector2.new(0.5, 0.5)
+Fade.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Fade.Size = UDim2.new(3, 0, 3, 0)
+Fade.Visible = false
+Fade.ZIndex = 2
+Fade.Style = Enum.FrameStyle.DropShadow
+
 -- Scripts:
 
-local function GVOHXW_fake_script() -- OopssGui.Start 
+local function EFBMQB_fake_script() -- OopssGui.Start 
 	local script = Instance.new('LocalScript', OopssGui)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
 	wait(2)
+	script.Parent.Fade.Visible = true
 	script.Parent.Loading.Frame:TweenPosition(UDim2.new(0.3, 0,0, 0))
 	script.Parent.Loading.ImageLabel:TweenPosition(UDim2.new(0.3, 0,0.12, 0))
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(GVOHXW_fake_script)()
-local function YNMD_fake_script() -- Frame.Client 
+coroutine.wrap(EFBMQB_fake_script)()
+local function MOWH_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -466,11 +638,12 @@ local function YNMD_fake_script() -- Frame.Client
 	wait(.2)
 	script.Parent.Parent.Frame:TweenPosition(UDim2.new(0.3, 0,-1, 0))
 	script.Parent.Parent.ImageLabel:TweenPosition(UDim2.new(0.3, 0,-1.12, 0))
+	script.Parent.Parent.Parent.Fade:Destroy()
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(YNMD_fake_script)()
-local function INGJFSO_fake_script() -- GUI.Normal 
+coroutine.wrap(MOWH_fake_script)()
+local function KQSZPWQ_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -483,19 +656,18 @@ local function INGJFSO_fake_script() -- GUI.Normal
 				end)
 			end
 			function Repeat()
-				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -300))
-				Tween(19,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 30))
-				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 330, -5))
+				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -100))
+				Tween(20,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 100))
 				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(14)
+				wait(14.5)
 			end
 			Repeat()
 		end
 		wait(1)
 	end
 end
-coroutine.wrap(INGJFSO_fake_script)()
-local function GQEW_fake_script() -- GUI.Only gold block 
+coroutine.wrap(KQSZPWQ_fake_script)()
+local function BTLGVB_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -508,19 +680,18 @@ local function GQEW_fake_script() -- GUI.Only gold block
 				end)
 			end
 			function Repeat()
-				Tween(.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -50))
-				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 50))
-				Tween(.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 30, -5))
-				Tween(3,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(13)
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -70))
+				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 70))
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 30, -5))
+				wait(16.5)
 			end
 			Repeat()
 		end
 		wait(1)
 	end
 end
-coroutine.wrap(GQEW_fake_script)()
-local function XUMUL_fake_script() -- GUI.Teleport 
+coroutine.wrap(BTLGVB_fake_script)()
+local function KSRJ_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -552,17 +723,18 @@ local function XUMUL_fake_script() -- GUI.Teleport
 				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, -10))
 				Tween(2,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, 10))
 				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, -10))
-				Tween(2,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, -10))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(14)
+				Tween(2,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 10))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
+				Tween(1,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+				wait(15)
 			end
 			Repeat()
 		end
 		wait(1)
 	end
 end
-coroutine.wrap(XUMUL_fake_script)()
-local function ZMMK_fake_script() -- OopssGui_2.LocalScript 
+coroutine.wrap(KSRJ_fake_script)()
+local function QBGERQX_fake_script() -- OopssGui_2.LocalScript 
 	local script = Instance.new('LocalScript', OopssGui_2)
 
 	local stats = false
@@ -590,8 +762,8 @@ local function ZMMK_fake_script() -- OopssGui_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(ZMMK_fake_script)()
-local function AEHQXGQ_fake_script() -- GUI.Fast 
+coroutine.wrap(QBGERQX_fake_script)()
+local function WJEBSX_fake_script() -- GUI.Fast 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -604,18 +776,18 @@ local function AEHQXGQ_fake_script() -- GUI.Fast
 				end)
 			end
 			function Repeat()
-				Tween(0.1,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -100))
-				Tween(10,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, 100))
-				Tween(0.1,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(14)
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
+				Tween(8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 20, -5))
+				wait(14.5)
 			end
 			Repeat()
 		end
 		wait(1)
 	end
 end
-coroutine.wrap(AEHQXGQ_fake_script)()
-local function NZBS_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(WJEBSX_fake_script)()
+local function QPBMJ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -626,8 +798,8 @@ local function NZBS_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NZBS_fake_script)()
-local function XJZGNNM_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(QPBMJ_fake_script)()
+local function YROGTE_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -638,8 +810,8 @@ local function XJZGNNM_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XJZGNNM_fake_script)()
-local function BSYN_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(YROGTE_fake_script)()
+local function WMDSAGV_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -650,8 +822,8 @@ local function BSYN_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BSYN_fake_script)()
-local function LFWQ_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(WMDSAGV_fake_script)()
+local function YAEFGF_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -662,12 +834,51 @@ local function LFWQ_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LFWQ_fake_script)()
-local function NHICU_fake_script() -- TextButton.LocalScript 
-	local script = Instance.new('LocalScript', TextButton)
+coroutine.wrap(YAEFGF_fake_script)()
+local function MWDW_fake_script() -- Water.LocalScript 
+	local script = Instance.new('LocalScript', Water)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(NHICU_fake_script)()
+coroutine.wrap(MWDW_fake_script)()
+local function QPDJB_fake_script() -- SetSpeed.uiSetup 
+	local script = Instance.new('LocalScript', SetSpeed)
+
+	script.Parent.MouseButton1Click:connect(function(set)
+		local speed = script.Parent.Parent.Speed.Text
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+	end)
+end
+coroutine.wrap(QPDJB_fake_script)()
+local function EQVISYO_fake_script() -- SetPower.uiSetup 
+	local script = Instance.new('LocalScript', SetPower)
+
+	script.Parent.MouseButton1Click:connect(function(set)
+		local power = script.Parent.Parent.Power.Text
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = power
+	end)
+	
+end
+coroutine.wrap(EQVISYO_fake_script)()
+local function JSCWEX_fake_script() -- TeleportButton.uiSetup 
+	local script = Instance.new('LocalScript', TeleportButton)
+
+	script.Parent.MouseButton1Click:connect(function(set)
+		local player = script.Parent.Parent.Teleport.Text
+		local success, errormessage = pcall(function()
+		local players = game:GetService("Players")
+		player = players:FindFirstChild(player)
+		players.LocalPlayer.Character:MoveTo(player.Character.HumanoidRootPart.Position + Vector3.new(0, 5, 0))
+		end)
+		if success then
+			local player = script.Parent.Parent.Teleport.Text
+			print("Teleported to "..player)
+		else
+			print("Teleport error: "..errormessage)
+			script.Parent.Parent.Teleport.Text = "Error"
+		end
+	end)
+end
+coroutine.wrap(JSCWEX_fake_script)()
