@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function XFAOLW_fake_script() -- START.Rainbower 
+local function XASBA_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,14 +260,32 @@ local function XFAOLW_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(XFAOLW_fake_script)()
-local function BKBSB_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(XASBA_fake_script)()
+local function JQSQFL_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
 	local code = "HYuNh2848g"
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
+	local nick = game.Players.LocalPlayer.Name
+	if game.Players.LocalPlayer.UserId == "1458077483" or "818465189" then
+		wait(2)
+		button.Text = "Moderator "..nick.." found"
+		button.TextEditable = false
+		button.TextColor3 = Color3.new(0, 0.666667, 1)
+		if game.PlaceId == 537413528 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
+			local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
+			Gui.Text = "true"
+		else
+			local message = Instance.new("Hint")
+			message.Text = "Game not found!!!"
+			message.Parent = script.Parent
+			wait(3)
+			script.Parent:Destroy()
+		end
+	end
 	while true do
 		if script.Parent.START.Frame.TextBox.Text == code then
 			wait(0.5)
