@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function XXWXCAW_fake_script() -- START.Rainbower 
+local function GXBEC_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function XXWXCAW_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(XXWXCAW_fake_script)()
-local function RVCYRRX_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(GXBEC_fake_script)()
+local function ZVTF_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -278,8 +278,13 @@ local function RVCYRRX_fake_script() -- OopssGuiMain.__MAIN__
 			if game.PlaceId == 537413528 then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/BuildABoatGui.lua", true))()
 				wait(1)
-				local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
-				Gui.Text = "true"
+				local success, errormessage = pcall(function()
+					local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
+				end)
+				if success then
+					local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
+					Gui.Text = "true"
+				end
 			else
 				local message = Instance.new("Hint")
 				message.Text = "Game not found!!!"
@@ -293,4 +298,4 @@ local function RVCYRRX_fake_script() -- OopssGuiMain.__MAIN__
 		wait(0.5)
 	end
 end
-coroutine.wrap(RVCYRRX_fake_script)()
+coroutine.wrap(ZVTF_fake_script)()
