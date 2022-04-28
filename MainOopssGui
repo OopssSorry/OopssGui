@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function GXBEC_fake_script() -- START.Rainbower 
+local function NQZNV_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function GXBEC_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(GXBEC_fake_script)()
-local function ZVTF_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(NQZNV_fake_script)()
+local function FTASF_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -277,14 +277,6 @@ local function ZVTF_fake_script() -- OopssGuiMain.__MAIN__
 			button.TextColor3 = Color3.new(0, 0.666667, 0)
 			if game.PlaceId == 537413528 then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/BuildABoatGui.lua", true))()
-				wait(1)
-				local success, errormessage = pcall(function()
-					local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
-				end)
-				if success then
-					local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
-					Gui.Text = "true"
-				end
 			else
 				local message = Instance.new("Hint")
 				message.Text = "Game not found!!!"
@@ -298,4 +290,4 @@ local function ZVTF_fake_script() -- OopssGuiMain.__MAIN__
 		wait(0.5)
 	end
 end
-coroutine.wrap(ZVTF_fake_script)()
+coroutine.wrap(FTASF_fake_script)()
