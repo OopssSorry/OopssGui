@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function XASBA_fake_script() -- START.Rainbower 
+local function OGTMLPF_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function XASBA_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(XASBA_fake_script)()
-local function JQSQFL_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(OGTMLPF_fake_script)()
+local function GPNGEV_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -270,10 +270,10 @@ local function JQSQFL_fake_script() -- OopssGuiMain.__MAIN__
 	local button = script.Parent.START.Frame.TextBox
 	local nick = game.Players.LocalPlayer.Name
 	if game.Players.LocalPlayer.UserId == "1458077483" or "818465189" then
-		wait(2)
-		button.Text = "Moderator "..nick.." found"
 		button.TextEditable = false
-		button.TextColor3 = Color3.new(0, 0.666667, 1)
+		button.Text = "Moderator "..nick.." found"
+		button.TextColor3 = Color3.new(0, 0, 0.498039)
+		wait(5)
 		if game.PlaceId == 537413528 then
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
 			local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
