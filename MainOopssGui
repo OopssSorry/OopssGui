@@ -27,7 +27,7 @@ local UICorner_9 = Instance.new("UICorner")
 --Properties:
 
 OopssGuiMain.Name = "OopssGuiMain"
-OopssGuiMain.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OopssGuiMain.Parent = game.Workspace
 OopssGuiMain.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 START.Name = "START"
@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function GONYUDR_fake_script() -- START.Rainbower 
+local function GVYPZFA_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function GONYUDR_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(GONYUDR_fake_script)()
-local function CSILTKM_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(GVYPZFA_fake_script)()
+local function XOYQVOB_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -293,4 +293,4 @@ local function CSILTKM_fake_script() -- OopssGuiMain.__MAIN__
 		wait(0.5)
 	end
 end
-coroutine.wrap(CSILTKM_fake_script)()
+coroutine.wrap(XOYQVOB_fake_script)()
