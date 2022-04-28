@@ -2,32 +2,32 @@ local OopssGuiMain = Instance.new("ScreenGui")
 local START = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local Frame = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
 local Logo = Instance.new("ImageLabel")
-local UICorner_3 = Instance.new("UICorner")
-local Text = Instance.new("TextLabel")
-local UICorner_4 = Instance.new("UICorner")
-local Invite = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local Invited = Instance.new("TextLabel")
-local Blackcat = Instance.new("ImageLabel")
-local UICorner_6 = Instance.new("UICorner")
-local Text_2 = Instance.new("TextLabel")
-local Boba = Instance.new("TextLabel")
-local UICorner_7 = Instance.new("UICorner")
-local MAIN = Instance.new("TextLabel")
-local ImageScript = Instance.new("ImageLabel")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local Name = Instance.new("TextLabel")
-local Now = Instance.new("TextLabel")
-local TextS = Instance.new("TextLabel")
+local Text = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
 local TextBox = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+local ImageScript = Instance.new("ImageLabel")
+local UICorner_5 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local TextS = Instance.new("TextLabel")
+local Now = Instance.new("TextLabel")
+local Invite = Instance.new("Frame")
+local Blackcat = Instance.new("ImageLabel")
+local UICorner_7 = Instance.new("UICorner")
+local Invited = Instance.new("TextLabel")
+local Text_2 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local MAIN = Instance.new("TextLabel")
+local Boba = Instance.new("TextLabel")
 local UICorner_9 = Instance.new("UICorner")
 
 --Properties:
 
 OopssGuiMain.Name = "OopssGuiMain"
-OopssGuiMain.Parent = game.Workspace
+OopssGuiMain.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 OopssGuiMain.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 START.Name = "START"
@@ -45,9 +45,6 @@ Frame.BorderColor3 = Color3.fromRGB(35, 39, 42)
 Frame.Position = UDim2.new(0.0250000004, 0, 0.0250000004, 0)
 Frame.Size = UDim2.new(0, 475, 0, 300)
 
-UICorner_2.CornerRadius = UDim.new(0, 12)
-UICorner_2.Parent = Frame
-
 Logo.Name = "Logo"
 Logo.Parent = Frame
 Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -57,105 +54,7 @@ Logo.ZIndex = 2
 Logo.Image = "http://www.roblox.com/asset/?id=7951794902"
 Logo.ImageColor3 = Color3.fromRGB(114, 118, 125)
 
-UICorner_3.Parent = Logo
-
-Text.Name = "Text"
-Text.Parent = Frame
-Text.BackgroundColor3 = Color3.fromRGB(24, 25, 28)
-Text.Size = UDim2.new(0, 474, 0, 50)
-Text.Font = Enum.Font.GothamSemibold
-Text.Text = "Key request"
-Text.TextColor3 = Color3.fromRGB(202, 204, 206)
-Text.TextScaled = true
-Text.TextSize = 14.000
-Text.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 12)
-UICorner_4.Parent = Text
-
-Invite.Name = "Invite"
-Invite.Parent = Frame
-Invite.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-Invite.Position = UDim2.new(0.100000001, 0, 0.600000024, 0)
-Invite.Size = UDim2.new(0, 390, 0, 100)
-
-UICorner_5.CornerRadius = UDim.new(0, 6)
-UICorner_5.Parent = Invite
-
-Invited.Name = "Invited"
-Invited.Parent = Invite
-Invited.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Invited.BackgroundTransparency = 1.000
-Invited.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
-Invited.Size = UDim2.new(0, 170, 0, 20)
-Invited.Font = Enum.Font.GothamSemibold
-Invited.Text = "You have been invited"
-Invited.TextColor3 = Color3.fromRGB(185, 187, 190)
-Invited.TextScaled = true
-Invited.TextSize = 14.000
-Invited.TextWrapped = true
-
-Blackcat.Name = "Black cat"
-Blackcat.Parent = Invite
-Blackcat.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
-Blackcat.Position = UDim2.new(0.0500000007, 0, 0.400000006, 0)
-Blackcat.Size = UDim2.new(0, 50, 0, 50)
-Blackcat.Image = "rbxassetid://9480755723"
-
-UICorner_6.CornerRadius = UDim.new(0, 6)
-UICorner_6.Parent = Blackcat
-
-Text_2.Name = "Text"
-Text_2.Parent = Invite
-Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Text_2.BackgroundTransparency = 1.000
-Text_2.Position = UDim2.new(0.219999999, 0, 0.400000006, 0)
-Text_2.Size = UDim2.new(0, 150, 0, 25)
-Text_2.Font = Enum.Font.GothamSemibold
-Text_2.Text = "Oopss-Scripts"
-Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Text_2.TextScaled = true
-Text_2.TextSize = 14.000
-Text_2.TextWrapped = true
-Text_2.TextXAlignment = Enum.TextXAlignment.Left
-
-Boba.Name = "Boba"
-Boba.Parent = Invite
-Boba.BackgroundColor3 = Color3.fromRGB(45, 125, 70)
-Boba.Position = UDim2.new(0.75, 0, 0.300000012, 0)
-Boba.Size = UDim2.new(0, 90, 0, 50)
-Boba.Font = Enum.Font.GothamBlack
-Boba.Text = "Join"
-Boba.TextColor3 = Color3.fromRGB(255, 255, 255)
-Boba.TextSize = 25.000
-
-UICorner_7.CornerRadius = UDim.new(0, 6)
-UICorner_7.Parent = Boba
-
-MAIN.Name = "MAIN!!!!"
-MAIN.Parent = Invite
-MAIN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MAIN.BackgroundTransparency = 1.000
-MAIN.Position = UDim2.new(0.219999999, 0, 0.699999988, 0)
-MAIN.Size = UDim2.new(0, 200, 0, 15)
-MAIN.Font = Enum.Font.GothamSemibold
-MAIN.Text = "https://discord.gg/9bdhwVfm23"
-MAIN.TextColor3 = Color3.fromRGB(0, 175, 244)
-MAIN.TextScaled = true
-MAIN.TextSize = 14.000
-MAIN.TextWrapped = true
-MAIN.TextXAlignment = Enum.TextXAlignment.Left
-
-ImageScript.Name = "ImageScript"
-ImageScript.Parent = Frame
-ImageScript.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
-ImageScript.Position = UDim2.new(0, 0, 0.439999998, 0)
-ImageScript.Size = UDim2.new(0, 50, 0, 50)
-ImageScript.ZIndex = 2
-ImageScript.Image = "http://www.roblox.com/asset/?id=5428180443"
-
-UICorner_8.CornerRadius = UDim.new(1, 0)
-UICorner_8.Parent = ImageScript
+UICorner_2.Parent = Logo
 
 Name.Name = "Name"
 Name.Parent = Frame
@@ -171,33 +70,19 @@ Name.TextSize = 14.000
 Name.TextWrapped = true
 Name.TextXAlignment = Enum.TextXAlignment.Left
 
-Now.Name = "Now"
-Now.Parent = Frame
-Now.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Now.BackgroundTransparency = 1.000
-Now.Position = UDim2.new(0.219999999, 0, 0.439999998, 0)
-Now.Size = UDim2.new(0, 50, 0, 20)
-Now.Font = Enum.Font.GothamSemibold
-Now.Text = "now"
-Now.TextColor3 = Color3.fromRGB(163, 166, 170)
-Now.TextScaled = true
-Now.TextSize = 14.000
-Now.TextWrapped = true
-Now.TextXAlignment = Enum.TextXAlignment.Left
+Text.Name = "Text"
+Text.Parent = Frame
+Text.BackgroundColor3 = Color3.fromRGB(24, 25, 28)
+Text.Size = UDim2.new(0, 474, 0, 50)
+Text.Font = Enum.Font.GothamSemibold
+Text.Text = "Key request"
+Text.TextColor3 = Color3.fromRGB(202, 204, 206)
+Text.TextScaled = true
+Text.TextSize = 14.000
+Text.TextWrapped = true
 
-TextS.Name = "TextS"
-TextS.Parent = Frame
-TextS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextS.BackgroundTransparency = 1.000
-TextS.Position = UDim2.new(0.109999999, 0, 0.5, 0)
-TextS.Size = UDim2.new(0, 200, 0, 25)
-TextS.Font = Enum.Font.SourceSans
-TextS.Text = "You can get key here:"
-TextS.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextS.TextScaled = true
-TextS.TextSize = 14.000
-TextS.TextWrapped = true
-TextS.TextXAlignment = Enum.TextXAlignment.Left
+UICorner_3.CornerRadius = UDim.new(0, 12)
+UICorner_3.Parent = Text
 
 TextBox.Parent = Frame
 TextBox.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
@@ -213,12 +98,160 @@ TextBox.TextSize = 14.000
 TextBox.TextStrokeColor3 = Color3.fromRGB(0, 170, 0)
 TextBox.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 12)
-UICorner_9.Parent = TextBox
+UICorner_4.CornerRadius = UDim.new(0, 12)
+UICorner_4.Parent = TextBox
+
+ImageScript.Name = "ImageScript"
+ImageScript.Parent = Frame
+ImageScript.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+ImageScript.Position = UDim2.new(0, 0, 0.439999998, 0)
+ImageScript.Size = UDim2.new(0, 50, 0, 50)
+ImageScript.ZIndex = 2
+ImageScript.Image = "http://www.roblox.com/asset/?id=5428180443"
+
+UICorner_5.CornerRadius = UDim.new(1, 0)
+UICorner_5.Parent = ImageScript
+
+UICorner_6.CornerRadius = UDim.new(0, 12)
+UICorner_6.Parent = Frame
+
+TextS.Name = "TextS"
+TextS.Parent = Frame
+TextS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextS.BackgroundTransparency = 1.000
+TextS.Position = UDim2.new(0.109999999, 0, 0.5, 0)
+TextS.Size = UDim2.new(0, 200, 0, 25)
+TextS.Font = Enum.Font.SourceSans
+TextS.Text = "You can get key here:"
+TextS.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextS.TextScaled = true
+TextS.TextSize = 14.000
+TextS.TextWrapped = true
+TextS.TextXAlignment = Enum.TextXAlignment.Left
+
+Now.Name = "Now"
+Now.Parent = Frame
+Now.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Now.BackgroundTransparency = 1.000
+Now.Position = UDim2.new(0.219999999, 0, 0.439999998, 0)
+Now.Size = UDim2.new(0, 50, 0, 20)
+Now.Font = Enum.Font.GothamSemibold
+Now.Text = "now"
+Now.TextColor3 = Color3.fromRGB(163, 166, 170)
+Now.TextScaled = true
+Now.TextSize = 14.000
+Now.TextWrapped = true
+Now.TextXAlignment = Enum.TextXAlignment.Left
+
+Invite.Name = "Invite"
+Invite.Parent = Frame
+Invite.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+Invite.Position = UDim2.new(0.100000001, 0, 0.600000024, 0)
+Invite.Size = UDim2.new(0, 390, 0, 100)
+
+Blackcat.Name = "Black cat"
+Blackcat.Parent = Invite
+Blackcat.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+Blackcat.Position = UDim2.new(0.0500000007, 0, 0.400000006, 0)
+Blackcat.Size = UDim2.new(0, 50, 0, 50)
+Blackcat.Image = "rbxassetid://9480755723"
+
+UICorner_7.CornerRadius = UDim.new(0, 6)
+UICorner_7.Parent = Blackcat
+
+Invited.Name = "Invited"
+Invited.Parent = Invite
+Invited.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Invited.BackgroundTransparency = 1.000
+Invited.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
+Invited.Size = UDim2.new(0, 170, 0, 20)
+Invited.Font = Enum.Font.GothamSemibold
+Invited.Text = "You have been invited"
+Invited.TextColor3 = Color3.fromRGB(185, 187, 190)
+Invited.TextScaled = true
+Invited.TextSize = 14.000
+Invited.TextWrapped = true
+
+Text_2.Name = "Text"
+Text_2.Parent = Invite
+Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.BackgroundTransparency = 1.000
+Text_2.Position = UDim2.new(0.219999999, 0, 0.400000006, 0)
+Text_2.Size = UDim2.new(0, 150, 0, 25)
+Text_2.Font = Enum.Font.GothamSemibold
+Text_2.Text = "Oopss-Scripts"
+Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Text_2.TextScaled = true
+Text_2.TextSize = 14.000
+Text_2.TextWrapped = true
+Text_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.CornerRadius = UDim.new(0, 6)
+UICorner_8.Parent = Invite
+
+MAIN.Name = "MAIN!!!!"
+MAIN.Parent = Invite
+MAIN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MAIN.BackgroundTransparency = 1.000
+MAIN.Position = UDim2.new(0.219999999, 0, 0.699999988, 0)
+MAIN.Size = UDim2.new(0, 200, 0, 15)
+MAIN.Font = Enum.Font.GothamSemibold
+MAIN.Text = "https://discord.gg/9bdhwVfm23"
+MAIN.TextColor3 = Color3.fromRGB(0, 175, 244)
+MAIN.TextScaled = true
+MAIN.TextSize = 14.000
+MAIN.TextWrapped = true
+MAIN.TextXAlignment = Enum.TextXAlignment.Left
+
+Boba.Name = "Boba"
+Boba.Parent = Invite
+Boba.BackgroundColor3 = Color3.fromRGB(45, 125, 70)
+Boba.Position = UDim2.new(0.75, 0, 0.300000012, 0)
+Boba.Size = UDim2.new(0, 90, 0, 50)
+Boba.Font = Enum.Font.GothamBlack
+Boba.Text = "Join"
+Boba.TextColor3 = Color3.fromRGB(255, 255, 255)
+Boba.TextSize = 25.000
+
+UICorner_9.CornerRadius = UDim.new(0, 6)
+UICorner_9.Parent = Boba
 
 -- Scripts:
 
-local function GVYPZFA_fake_script() -- START.Rainbower 
+local function TYUH_fake_script() -- OopssGuiMain.__MAIN__ 
+	local script = Instance.new('LocalScript', OopssGuiMain)
+
+	local player = game.Players.LocalPlayer
+	local code = "HYuNh2848g"
+	local x = 0
+	local button = script.Parent.START.Frame.TextBox
+	local nick = game.Players.LocalPlayer.Name
+	while true do
+		if script.Parent.START.Frame.TextBox.Text == code or script.Parent.START.Frame.TextBox.Text == code.." " then
+			wait(0.5)
+			button.Text = "Successful"
+			button.TextEditable = false
+			button.TextColor3 = Color3.new(0, 0.666667, 0)
+			if game.PlaceId == 537413528 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
+				wait(1)
+				local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
+				Gui.Text = "true"
+			else
+				local message = Instance.new("Hint")
+				message.Text = "Game not found!!!"
+				message.Parent = script.Parent
+			end
+			wait(0.2)
+			script.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
+			wait(2)
+			script.Parent.Parent.OopssGuiMain:Destroy()
+		end
+		wait(0.5)
+	end
+end
+coroutine.wrap(TYUH_fake_script)()
+local function FKLQBF_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,37 +293,4 @@ local function GVYPZFA_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(GVYPZFA_fake_script)()
-local function XOYQVOB_fake_script() -- OopssGuiMain.__MAIN__ 
-	local script = Instance.new('LocalScript', OopssGuiMain)
-
-	local player = game.Players.LocalPlayer
-	local code = "HYuNh2848g"
-	local x = 0
-	local button = script.Parent.START.Frame.TextBox
-	local nick = game.Players.LocalPlayer.Name
-	while true do
-		if script.Parent.START.Frame.TextBox.Text == code or script.Parent.START.Frame.TextBox.Text == code.." " then
-			wait(0.5)
-			button.Text = "Successful"
-			button.TextEditable = false
-			button.TextColor3 = Color3.new(0, 0.666667, 0)
-			if game.PlaceId == 537413528 then
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
-				wait(1)
-				local Gui = script.Parent.Parent:FindFirstChild("OopssGuiBABFT"):FindFirstChild("Admin")
-				Gui.Text = "true"
-			else
-				local message = Instance.new("Hint")
-				message.Text = "Game not found!!!"
-				message.Parent = script.Parent
-			end
-			wait(0.2)
-			script.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
-			wait(2)
-			script.Parent.Parent.OopssGuiMain:Destroy()
-		end
-		wait(0.5)
-	end
-end
-coroutine.wrap(XOYQVOB_fake_script)()
+coroutine.wrap(FKLQBF_fake_script)()
