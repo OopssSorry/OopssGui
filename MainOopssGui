@@ -1,7 +1,3 @@
--- Version: --:--
-
--- Instances:
-
 local OopssGuiMain = Instance.new("ScreenGui")
 local START = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -222,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function EHXYGBM_fake_script() -- START.Rainbower 
+local function XFAOLW_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -264,40 +260,36 @@ local function EHXYGBM_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(EHXYGBM_fake_script)()
-local function SNJR_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(XFAOLW_fake_script)()
+local function BKBSB_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
 	local code = "HYuNh2848g"
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
-	function games()
-		if game.PlaceId == 537413528 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
-			local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
-			Gui.Text = "true"
-		else
-			local message = Instance.new("Hint")
-			message.Text = "Game not found!!!"
-			message.Parent = script.Parent
-			wait(3)
-			script.Parent.Parent.OopssGuiMain:Destroy()
-		end
-	end
 	while true do
 		if script.Parent.START.Frame.TextBox.Text == code then
 			wait(0.5)
 			button.Text = "Successful"
 			button.TextEditable = false
 			button.TextColor3 = Color3.new(0, 0.666667, 0)
-			games()
+			if game.PlaceId == 537413528 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
+				local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
+				Gui.Text = "true"
+			else
+				local message = Instance.new("Hint")
+				message.Text = "Game not found!!!"
+				message.Parent = script.Parent
+				wait(3)
+				script.Parent:Destroy()
+			end
 			wait(0.2)
 			script.Parent.Parent.Parent.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
 			wait(2)
-			script.Parent.Parent.OopssGuiMain:Destroy()
+			script.Parent:Destroy()
 		end
 		wait(0.5)
 	end
 end
-coroutine.wrap(SNJR_fake_script)()
