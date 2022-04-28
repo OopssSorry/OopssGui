@@ -295,7 +295,7 @@ local function SNJR_fake_script() -- OopssGuiMain.__MAIN__
 			wait(0.2)
 			script.Parent.Parent.Parent.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
 			wait(2)
-			script.Parent.Parent.Parent.Parent.Parent.OopssGuiMain:Destroy()
+			script.Parent.Parent.OopssGuiMain:Destroy()
 		end
 		wait(0.5)
 	end
