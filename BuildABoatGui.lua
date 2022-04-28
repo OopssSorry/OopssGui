@@ -267,7 +267,7 @@ menu.Parent = GUI
 menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 menu.BackgroundTransparency = 0.100
 menu.BorderColor3 = Color3.fromRGB(27, 42, 53)
-menu.Position = UDim2.new(0.458847731, 0, 0.207361966, 5)
+menu.Position = UDim2.new(0.259000003, 0, 0.207000002, 5)
 menu.Size = UDim2.new(0, 567, 0, 467)
 menu.Visible = false
 
@@ -1239,7 +1239,7 @@ Admin.TextTransparency = 1.000
 
 -- Scripts:
 
-local function EOKW_fake_script() -- OopssGuiBABFT.Start 
+local function NYPB_fake_script() -- OopssGuiBABFT.Start 
 	local script = Instance.new('LocalScript', OopssGuiBABFT)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
@@ -1256,8 +1256,8 @@ local function EOKW_fake_script() -- OopssGuiBABFT.Start
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(EOKW_fake_script)()
-local function CPOY_fake_script() -- Frame.Client 
+coroutine.wrap(NYPB_fake_script)()
+local function LAPRDDG_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -1292,8 +1292,8 @@ local function CPOY_fake_script() -- Frame.Client
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(CPOY_fake_script)()
-local function PLDF_fake_script() -- GUI.Normal 
+coroutine.wrap(LAPRDDG_fake_script)()
+local function ZZQLPFD_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1318,8 +1318,8 @@ local function PLDF_fake_script() -- GUI.Normal
 		wait(.5)
 	end
 end
-coroutine.wrap(PLDF_fake_script)()
-local function JSRXUQ_fake_script() -- GUI.Only gold block 
+coroutine.wrap(ZZQLPFD_fake_script)()
+local function RMGOCGF_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1345,8 +1345,8 @@ local function JSRXUQ_fake_script() -- GUI.Only gold block
 		wait(.5)
 	end
 end
-coroutine.wrap(JSRXUQ_fake_script)()
-local function KGEGG_fake_script() -- GUI.Teleport 
+coroutine.wrap(RMGOCGF_fake_script)()
+local function UTDWV_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1445,8 +1445,8 @@ local function KGEGG_fake_script() -- GUI.Teleport
 	end
 	
 end
-coroutine.wrap(KGEGG_fake_script)()
-local function FIBK_fake_script() -- OopssGui.LocalScript 
+coroutine.wrap(UTDWV_fake_script)()
+local function TLAUEB_fake_script() -- OopssGui.LocalScript 
 	local script = Instance.new('LocalScript', OopssGui)
 
 	local click = script.Parent.Parent:findFirstChild("Click")
@@ -1475,8 +1475,8 @@ local function FIBK_fake_script() -- OopssGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FIBK_fake_script)()
-local function GHKIWJ_fake_script() -- GUI.Fast 
+coroutine.wrap(TLAUEB_fake_script)()
+local function MMJIL_fake_script() -- GUI.Fast 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1501,8 +1501,8 @@ local function GHKIWJ_fake_script() -- GUI.Fast
 		wait(.5)
 	end
 end
-coroutine.wrap(GHKIWJ_fake_script)()
-local function GDUIJMA_fake_script() -- Water.LocalScript 
+coroutine.wrap(MMJIL_fake_script)()
+local function NURPKBT_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1511,8 +1511,8 @@ local function GDUIJMA_fake_script() -- Water.LocalScript
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(GDUIJMA_fake_script)()
-local function CBWDKPT_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(NURPKBT_fake_script)()
+local function ARNJ_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1526,8 +1526,8 @@ local function CBWDKPT_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(CBWDKPT_fake_script)()
-local function BRPVL_fake_script() -- SetGravity.uiSetup 
+coroutine.wrap(ARNJ_fake_script)()
+local function NPFGQL_fake_script() -- SetGravity.uiSetup 
 	local script = Instance.new('LocalScript', SetGravity)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1542,8 +1542,8 @@ local function BRPVL_fake_script() -- SetGravity.uiSetup
 	end)
 	
 end
-coroutine.wrap(BRPVL_fake_script)()
-local function VLIRZQ_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(NPFGQL_fake_script)()
+local function OVJSWK_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1564,8 +1564,8 @@ local function VLIRZQ_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(VLIRZQ_fake_script)()
-local function KECET_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(OVJSWK_fake_script)()
+local function ICAKEZ_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1579,8 +1579,8 @@ local function KECET_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGuiBABFT:Destroy()
 	end)
 end
-coroutine.wrap(KECET_fake_script)()
-local function NPMQO_fake_script() -- Teams.LocalScript 
+coroutine.wrap(ICAKEZ_fake_script)()
+local function NAYOGG_fake_script() -- Teams.LocalScript 
 	local script = Instance.new('LocalScript', Teams)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1637,8 +1637,8 @@ local function NPMQO_fake_script() -- Teams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NPMQO_fake_script)()
-local function LJTJL_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(NAYOGG_fake_script)()
+local function TMCOZ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1651,8 +1651,8 @@ local function LJTJL_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LJTJL_fake_script)()
-local function TSNYQU_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(TMCOZ_fake_script)()
+local function QQXDH_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1667,8 +1667,8 @@ local function TSNYQU_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(TSNYQU_fake_script)()
-local function GZWKAQ_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(QQXDH_fake_script)()
+local function FTILU_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1681,8 +1681,8 @@ local function GZWKAQ_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GZWKAQ_fake_script)()
-local function YECNK_fake_script() -- Chicken.LocalScript 
+coroutine.wrap(FTILU_fake_script)()
+local function FHNY_fake_script() -- Chicken.LocalScript 
 	local script = Instance.new('LocalScript', Chicken)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1693,8 +1693,8 @@ local function YECNK_fake_script() -- Chicken.LocalScript
 		Event:FireServer(A_2)
 	end)
 end
-coroutine.wrap(YECNK_fake_script)()
-local function KQXCA_fake_script() -- Fox.LocalScript 
+coroutine.wrap(FHNY_fake_script)()
+local function TVDYVHF_fake_script() -- Fox.LocalScript 
 	local script = Instance.new('LocalScript', Fox)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1705,8 +1705,8 @@ local function KQXCA_fake_script() -- Fox.LocalScript
 		Event:FireServer(A_1)
 	end)
 end
-coroutine.wrap(KQXCA_fake_script)()
-local function VZVXVPD_fake_script() -- Penguin.LocalScript 
+coroutine.wrap(TVDYVHF_fake_script)()
+local function CBZUXIZ_fake_script() -- Penguin.LocalScript 
 	local script = Instance.new('LocalScript', Penguin)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1717,8 +1717,8 @@ local function VZVXVPD_fake_script() -- Penguin.LocalScript
 		Event:FireServer(A_3)
 	end)
 end
-coroutine.wrap(VZVXVPD_fake_script)()
-local function FFQM_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(CBZUXIZ_fake_script)()
+local function IIYBH_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1731,8 +1731,8 @@ local function FFQM_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FFQM_fake_script)()
-local function ILJVRW_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(IIYBH_fake_script)()
+local function KKPG_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1744,8 +1744,8 @@ local function ILJVRW_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ILJVRW_fake_script)()
-local function YNBO_fake_script() -- Select.LocalScript 
+coroutine.wrap(KKPG_fake_script)()
+local function BMCHRM_fake_script() -- Select.LocalScript 
 	local script = Instance.new('LocalScript', Select)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1754,8 +1754,8 @@ local function YNBO_fake_script() -- Select.LocalScript
 		script.Parent.Parent.Selectbox.Visible = true
 	end)
 end
-coroutine.wrap(YNBO_fake_script)()
-local function VEGFZ_fake_script() -- LegendaryChest.LocalScript 
+coroutine.wrap(BMCHRM_fake_script)()
+local function MRNJJRG_fake_script() -- LegendaryChest.LocalScript 
 	local script = Instance.new('LocalScript', LegendaryChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1766,8 +1766,8 @@ local function VEGFZ_fake_script() -- LegendaryChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(VEGFZ_fake_script)()
-local function BRRAM_fake_script() -- EpicChest.LocalScript 
+coroutine.wrap(MRNJJRG_fake_script)()
+local function EZNP_fake_script() -- EpicChest.LocalScript 
 	local script = Instance.new('LocalScript', EpicChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1778,8 +1778,8 @@ local function BRRAM_fake_script() -- EpicChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(BRRAM_fake_script)()
-local function OLJWWP_fake_script() -- RareChest.LocalScript 
+coroutine.wrap(EZNP_fake_script)()
+local function XUBAESF_fake_script() -- RareChest.LocalScript 
 	local script = Instance.new('LocalScript', RareChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1790,8 +1790,8 @@ local function OLJWWP_fake_script() -- RareChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(OLJWWP_fake_script)()
-local function EDGPCD_fake_script() -- UncommonChest.LocalScript 
+coroutine.wrap(XUBAESF_fake_script)()
+local function UYODXT_fake_script() -- UncommonChest.LocalScript 
 	local script = Instance.new('LocalScript', UncommonChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1802,8 +1802,8 @@ local function EDGPCD_fake_script() -- UncommonChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(EDGPCD_fake_script)()
-local function HWOWX_fake_script() -- CommonChest.LocalScript 
+coroutine.wrap(UYODXT_fake_script)()
+local function GDAVSY_fake_script() -- CommonChest.LocalScript 
 	local script = Instance.new('LocalScript', CommonChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1814,8 +1814,8 @@ local function HWOWX_fake_script() -- CommonChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(HWOWX_fake_script)()
-local function BKWZJS_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(GDAVSY_fake_script)()
+local function CUIFNJP_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1828,8 +1828,8 @@ local function BKWZJS_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BKWZJS_fake_script)()
-local function LLQLN_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(CUIFNJP_fake_script)()
+local function YWJB_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1842,8 +1842,8 @@ local function LLQLN_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LLQLN_fake_script)()
-local function NOPLV_fake_script() -- ImageButton_7.LocalScript 
+coroutine.wrap(YWJB_fake_script)()
+local function LADE_fake_script() -- ImageButton_7.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_7)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1856,8 +1856,8 @@ local function NOPLV_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NOPLV_fake_script)()
-local function ZXJPPFJ_fake_script() -- ImageButton_8.LocalScript 
+coroutine.wrap(LADE_fake_script)()
+local function BGQJRDD_fake_script() -- ImageButton_8.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_8)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1870,8 +1870,8 @@ local function ZXJPPFJ_fake_script() -- ImageButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZXJPPFJ_fake_script)()
-local function YSBEJID_fake_script() -- GUI.Spammer 
+coroutine.wrap(BGQJRDD_fake_script)()
+local function XLVVZ_fake_script() -- GUI.Spammer 
 	local script = Instance.new('LocalScript', GUI)
 
 	local A4 = "lol"
@@ -1891,8 +1891,8 @@ local function YSBEJID_fake_script() -- GUI.Spammer
 		wait(1)
 	end
 end
-coroutine.wrap(YSBEJID_fake_script)()
-local function LIHJJGG_fake_script() -- GUI.Autobuy 
+coroutine.wrap(XLVVZ_fake_script)()
+local function EIUH_fake_script() -- GUI.Autobuy 
 	local script = Instance.new('LocalScript', GUI)
 
 	local i = script.Parent.menu.Autobuy.Select
@@ -1922,8 +1922,8 @@ local function LIHJJGG_fake_script() -- GUI.Autobuy
 		wait(1.5)
 	end
 end
-coroutine.wrap(LIHJJGG_fake_script)()
-local function BFCNBF_fake_script() -- GUI.Anti AFK 
+coroutine.wrap(EIUH_fake_script)()
+local function WLVJBKD_fake_script() -- GUI.Anti AFK 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1937,12 +1937,12 @@ local function BFCNBF_fake_script() -- GUI.Anti AFK
 		wait(1)
 	end
 end
-coroutine.wrap(BFCNBF_fake_script)()
-local function OAIV_fake_script() -- GUI.Fly 
+coroutine.wrap(WLVJBKD_fake_script)()
+local function ETPI_fake_script() -- GUI.Fly 
 	local script = Instance.new('LocalScript', GUI)
 
 	repeat wait() 
-		until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Head") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 	local mouse = game.Players.LocalPlayer:GetMouse() 
 	repeat wait() until mouse
 	local plr = game.Players.LocalPlayer 
@@ -1951,84 +1951,83 @@ local function OAIV_fake_script() -- GUI.Fly
 	local deb = true 
 	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
 	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-	local maxspeed = 500 
+	local maxspeed = 400 
 	local speed = 5000 
 	
 	function Fly() 
-	local bg = Instance.new("BodyGyro", torso) 
-	bg.P = 9e4 
-	bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
-	bg.cframe = torso.CFrame 
-	local bv = Instance.new("BodyVelocity", torso) 
-	bv.velocity = Vector3.new(0,0.1,0) 
-	bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
-	repeat wait() 
-	plr.Character.Humanoid.PlatformStand = true 
-	if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
-	speed = speed+.5+(speed/maxspeed) 
-	if speed > maxspeed then 
-	speed = maxspeed 
+		local bg = Instance.new("BodyGyro", torso) 
+		bg.P = 9e4 
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		bg.cframe = torso.CFrame 
+		local bv = Instance.new("BodyVelocity", torso) 
+		bv.velocity = Vector3.new(0,0.1,0) 
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+		repeat wait() 
+			plr.Character.Humanoid.PlatformStand = true 
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+				speed = speed+.5+(speed/maxspeed) 
+				if speed > maxspeed then 
+					speed = maxspeed 
+				end 
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+				speed = speed-1 
+				if speed < 0 then 
+					speed = 0 
+				end 
+			end 
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+			else 
+				bv.velocity = Vector3.new(0,0.1,0) 
+			end 
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+		until not flying 
+		ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		speed = 0 
+		bg:Destroy() 
+		bv:Destroy() 
+		plr.Character.Humanoid.PlatformStand = false 
 	end 
-	elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
-	speed = speed-1 
-	if speed < 0 then 
-	speed = 0 
-	end 
-	end 
-	if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
-	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-	lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
-	elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
-	bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
-	else 
-	bv.velocity = Vector3.new(0,0.1,0) 
-	end 
-	bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
-	until not flying 
-	ctrl = {f = 0, b = 0, l = 0, r = 0} 
-	lastctrl = {f = 0, b = 0, l = 0, r = 0} 
-	speed = 0 
-	bg:Destroy() 
-	bv:Destroy() 
-	plr.Character.Humanoid.PlatformStand = false 
-	end 
-	mouse.KeyDown:connect(function(key)
-	if script.Parent.menu.Other.Fly.ImageButton.Transparency == 0 then
-		flying = false 
-	end
-	if script.Parent.menu.Other.Fly.ImageButton.Transparency == 1 then
-	if key:lower() == "e" then 
-	if flying then flying = false 
-	else 
-	flying = true 
-	Fly() 
-	end 
-	elseif key:lower() == "w" then 
-	ctrl.f = 1 
-	elseif key:lower() == "s" then 
-	ctrl.b = -1 
-	elseif key:lower() == "a" then 
-	ctrl.l = -1 
-	elseif key:lower() == "d" then 
-	ctrl.r = 1 
-	end
-	end
-	end) 
-	mouse.KeyUp:connect(function(key) 
-	if key:lower() == "w" then 
-	ctrl.f = 0 
-	elseif key:lower() == "s" then 
-	ctrl.b = 0 
-	elseif key:lower() == "a" then 
-	ctrl.l = 0 
-	elseif key:lower() == "d" then 
-	ctrl.r = 0 
-	end 
+	mouse.KeyDown:connect(function(key) 
+		if script.Parent.menu.Other.Fly.ImageButton.Transparency == 1 then
+		if key:lower() == "e" then 
+			if flying then flying = false 
+			else 
+				flying = true 
+				Fly() 
+			end 
+		elseif key:lower() == "w" then 
+			ctrl.f = 1 
+		elseif key:lower() == "s" then 
+			ctrl.b = -1 
+		elseif key:lower() == "a" then 
+			ctrl.l = -1 
+		elseif key:lower() == "d" then 
+			ctrl.r = 1 
+			end
+			end
+		end) 
+	mouse.KeyUp:connect(function(key)
+		if script.Parent.menu.Other.Fly.ImageButton.Transparency == 1 then
+		if key:lower() == "w" then 
+			ctrl.f = 0 
+		elseif key:lower() == "s" then 
+			ctrl.b = 0 
+		elseif key:lower() == "a" then 
+			ctrl.l = 0 
+		elseif key:lower() == "d" then 
+			ctrl.r = 0 
+		end 
+		end
 	end)
 	Fly()
 end
-coroutine.wrap(OAIV_fake_script)()
-local function EXHS_fake_script() -- OopssGuiBABFT.SScode 
+coroutine.wrap(ETPI_fake_script)()
+local function ZMRKIBL_fake_script() -- OopssGuiBABFT.SScode 
 	local script = Instance.new('LocalScript', OopssGuiBABFT)
 
 	wait(3)
@@ -2048,3 +2047,4 @@ local function EXHS_fake_script() -- OopssGuiBABFT.SScode
 		script.Parent.Parent.OopssGuiBABFT:Destroy()
 	end
 end
+coroutine.wrap(ZMRKIBL_fake_script)()
