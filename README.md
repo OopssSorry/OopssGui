@@ -1,9 +1,10 @@
-**Build A Boat For Treasure v2.4.1**
+# Build A Boat For Treasure v2.4.1
 
 Game link - *https://www.roblox.com/games/537413528*
+
 Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/MainOopssGui", true))()`*
 
-**-- Functions --**
+# Functions
 - Sound:Click - work
 - Autofarm:Normal - work
 - Autofarm:Fast - work
@@ -23,4 +24,4 @@ Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorr
 - Autobuy chest - __Comming soon__
 - Key - work
 
-**Thx for using script**
+# Thx for using script
