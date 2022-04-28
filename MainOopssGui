@@ -1,3 +1,7 @@
+-- Version: --:--
+
+-- Instances:
+
 local OopssGuiMain = Instance.new("ScreenGui")
 local START = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -218,7 +222,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function BJCW_fake_script() -- START.Rainbower 
+local function EHXYGBM_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +264,8 @@ local function BJCW_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(BJCW_fake_script)()
-local function PUYVFL_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(EHXYGBM_fake_script)()
+local function SNJR_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -295,3 +299,5 @@ local function PUYVFL_fake_script() -- OopssGuiMain.__MAIN__
 		end
 		wait(0.5)
 	end
+end
+coroutine.wrap(SNJR_fake_script)()
