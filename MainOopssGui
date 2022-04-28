@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function OGTMLPF_fake_script() -- START.Rainbower 
+local function DFBPVGW_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function OGTMLPF_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(OGTMLPF_fake_script)()
-local function GPNGEV_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(DFBPVGW_fake_script)()
+local function SLNYCNT_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -269,44 +269,26 @@ local function GPNGEV_fake_script() -- OopssGuiMain.__MAIN__
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
 	local nick = game.Players.LocalPlayer.Name
-	if game.Players.LocalPlayer.UserId == "1458077483" or "818465189" then
-		button.TextEditable = false
-		button.Text = "Moderator "..nick.." found"
-		button.TextColor3 = Color3.new(0, 0, 0.498039)
-		wait(5)
-		if game.PlaceId == 537413528 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
-			local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
-			Gui.Text = "true"
-		else
-			local message = Instance.new("Hint")
-			message.Text = "Game not found!!!"
-			message.Parent = script.Parent
-			wait(3)
-			script.Parent:Destroy()
-		end
-	end
 	while true do
-		if script.Parent.START.Frame.TextBox.Text == code then
+		if script.Parent.START.Frame.TextBox.Text == code or script.Parent.START.Frame.TextBox.Text == code.." " then
 			wait(0.5)
 			button.Text = "Successful"
 			button.TextEditable = false
 			button.TextColor3 = Color3.new(0, 0.666667, 0)
 			if game.PlaceId == 537413528 then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/BuildABoatGui.lua", true))()
+				wait(1)
 				local Gui = script.Parent.Parent.Parent.Parent.Parent:WaitForChild("OopssGuiBABFT").Admin
 				Gui.Text = "true"
 			else
 				local message = Instance.new("Hint")
 				message.Text = "Game not found!!!"
 				message.Parent = script.Parent
-				wait(3)
-				script.Parent:Destroy()
 			end
 			wait(0.2)
-			script.Parent.Parent.Parent.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
+			script.Parent.START:TweenPosition(UDim2.new(0.4, -1,2, 0))
 			wait(2)
-			script.Parent:Destroy()
+			script.Parent.Parent.OopssGuiMain:Destroy()
 		end
 		wait(0.5)
 	end
