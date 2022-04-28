@@ -2,7 +2,7 @@
 
 Game link - *https://www.roblox.com/games/537413528*
 
-Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/Oopss/main/MainOopssGui", true))()`*
+Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/MainOopssGui", true))()`*
 
 # Functions
 - Sound:Click - work
