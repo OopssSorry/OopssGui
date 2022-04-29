@@ -1,50 +1,53 @@
+local OopssGui = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
 local menu = Instance.new("Frame")
 local Other = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
 local Other_2 = Instance.new("TextLabel")
 local Water = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local JumpText = Instance.new("TextLabel")
 local UICorner_3 = Instance.new("UICorner")
-local SetSpeed = Instance.new("TextButton")
+local JumpText = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
-local SetGravity = Instance.new("TextButton")
+local SetSpeed = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
-local Speed = Instance.new("TextBox")
+local SetGravity = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
-local Gravity = Instance.new("TextBox")
+local Speed = Instance.new("TextBox")
 local UICorner_7 = Instance.new("UICorner")
-local TeleportButton = Instance.new("TextButton")
+local Gravity = Instance.new("TextBox")
 local UICorner_8 = Instance.new("UICorner")
-local SpeedText = Instance.new("TextLabel")
+local TeleportButton = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
-local Teleport = Instance.new("TextBox")
+local SpeedText = Instance.new("TextLabel")
 local UICorner_10 = Instance.new("UICorner")
-local Destroy = Instance.new("TextButton")
+local Teleport = Instance.new("TextBox")
 local UICorner_11 = Instance.new("UICorner")
+local Destroy = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
 local Teams = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local AFK = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
-local UICorner_13 = Instance.new("UICorner")
-local ImageLabel = Instance.new("ImageLabel")
 local UICorner_14 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
 local UICorner_15 = Instance.new("UICorner")
-local GravityText = Instance.new("TextLabel")
 local UICorner_16 = Instance.new("UICorner")
-local Power = Instance.new("TextBox")
+local GravityText = Instance.new("TextLabel")
 local UICorner_17 = Instance.new("UICorner")
-local SetPower = Instance.new("TextButton")
+local Power = Instance.new("TextBox")
 local UICorner_18 = Instance.new("UICorner")
+local SetPower = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
 local Fly = Instance.new("TextLabel")
 local ImageButton_2 = Instance.new("ImageButton")
-local UICorner_19 = Instance.new("UICorner")
-local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_20 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_21 = Instance.new("UICorner")
-local Credits = Instance.new("Frame")
 local UICorner_22 = Instance.new("UICorner")
+local Credits = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
 local Credits_2 = Instance.new("TextLabel")
 local Maks00277 = Instance.new("TextLabel")
 local Maks00277_2 = Instance.new("TextLabel")
@@ -52,87 +55,87 @@ local DFDERD41 = Instance.new("TextLabel")
 local DFDERD41_2 = Instance.new("TextLabel")
 local Text = Instance.new("TextLabel")
 local Morph = Instance.new("Frame")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local Morph_2 = Instance.new("TextLabel")
 local Chicken = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Fox = Instance.new("TextButton")
 local UICorner_25 = Instance.new("UICorner")
-local Penguin = Instance.new("TextButton")
+local Fox = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local Spam = Instance.new("Frame")
+local Penguin = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
+local Spam = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
 local Spam_2 = Instance.new("TextLabel")
 local Message = Instance.new("TextBox")
-local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local Spamming = Instance.new("TextLabel")
 local ImageButton_3 = Instance.new("ImageButton")
-local UICorner_29 = Instance.new("UICorner")
-local ImageLabel_3 = Instance.new("ImageLabel")
 local UICorner_30 = Instance.new("UICorner")
-local Autobuy = Instance.new("Frame")
+local ImageLabel_3 = Instance.new("ImageLabel")
 local UICorner_31 = Instance.new("UICorner")
+local Autobuy = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
 local Text_2 = Instance.new("TextLabel")
 local AutoBuyController = Instance.new("TextLabel")
 local ImageButton_4 = Instance.new("ImageButton")
-local UICorner_32 = Instance.new("UICorner")
-local ImageLabel_4 = Instance.new("ImageLabel")
 local UICorner_33 = Instance.new("UICorner")
-local Select = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
 local UICorner_34 = Instance.new("UICorner")
+local Select = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
 local ImageLabel_5 = Instance.new("ImageLabel")
 local Selectbox = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
-local UIGradient = Instance.new("UIGradient")
+local UICorner_36 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
 local LegendaryChest = Instance.new("TextButton")
 local ImageLabel_6 = Instance.new("ImageLabel")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local EpicChest = Instance.new("TextButton")
 local ImageLabel_7 = Instance.new("ImageLabel")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local RareChest = Instance.new("TextButton")
 local ImageLabel_8 = Instance.new("ImageLabel")
-local UICorner_38 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
 local UncommonChest = Instance.new("TextButton")
 local ImageLabel_9 = Instance.new("ImageLabel")
-local UICorner_39 = Instance.new("UICorner")
+local UICorner_40 = Instance.new("UICorner")
 local CommonChest = Instance.new("TextButton")
 local ImageLabel_10 = Instance.new("ImageLabel")
-local UICorner_40 = Instance.new("UICorner")
+local UICorner_41 = Instance.new("UICorner")
 local Soon = Instance.new("TextLabel")
 local Autofarm = Instance.new("Frame")
-local UICorner_41 = Instance.new("UICorner")
+local UICorner_42 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Normal = Instance.new("TextLabel")
 local ImageButton_5 = Instance.new("ImageButton")
-local UICorner_42 = Instance.new("UICorner")
-local ImageLabel_11 = Instance.new("ImageLabel")
 local UICorner_43 = Instance.new("UICorner")
+local ImageLabel_11 = Instance.new("ImageLabel")
+local UICorner_44 = Instance.new("UICorner")
 local Fast = Instance.new("TextLabel")
 local ImageButton_6 = Instance.new("ImageButton")
-local UICorner_44 = Instance.new("UICorner")
-local ImageLabel_12 = Instance.new("ImageLabel")
 local UICorner_45 = Instance.new("UICorner")
+local ImageLabel_12 = Instance.new("ImageLabel")
+local UICorner_46 = Instance.new("UICorner")
 local Teleport_2 = Instance.new("TextLabel")
 local ImageButton_7 = Instance.new("ImageButton")
-local UICorner_46 = Instance.new("UICorner")
-local ImageLabel_13 = Instance.new("ImageLabel")
 local UICorner_47 = Instance.new("UICorner")
+local ImageLabel_13 = Instance.new("ImageLabel")
+local UICorner_48 = Instance.new("UICorner")
 local Onlygoldblock = Instance.new("TextLabel")
 local ImageButton_8 = Instance.new("ImageButton")
-local UICorner_48 = Instance.new("UICorner")
-local ImageLabel_14 = Instance.new("ImageLabel")
 local UICorner_49 = Instance.new("UICorner")
-local Skins = Instance.new("ImageLabel")
+local ImageLabel_14 = Instance.new("ImageLabel")
 local UICorner_50 = Instance.new("UICorner")
+local Skins = Instance.new("ImageLabel")
+local UICorner_51 = Instance.new("UICorner")
 local Skin1 = Instance.new("ImageButton")
 local UiCorner = Instance.new("UICorner")
-local UIGradient_2 = Instance.new("UIGradient")
+local UIGradient_3 = Instance.new("UIGradient")
 local Num = Instance.new("TextLabel")
 local Skin2 = Instance.new("ImageButton")
 local UiCorner_2 = Instance.new("UICorner")
 local Num_2 = Instance.new("TextLabel")
-local UIGradient_3 = Instance.new("UIGradient")
+local UIGradient_4 = Instance.new("UIGradient")
 local Skin3 = Instance.new("ImageButton")
 local UiCorner_3 = Instance.new("UICorner")
 local Num_3 = Instance.new("TextLabel")
@@ -141,7 +144,7 @@ local UiCorner_4 = Instance.new("UICorner")
 local Num_4 = Instance.new("TextLabel")
 local SkinAnime = Instance.new("ImageButton")
 local SkinsButton = Instance.new("TextButton")
-local UICorner_51 = Instance.new("UICorner")
+local UICorner_52 = Instance.new("UICorner")
 local Skin2_2 = Instance.new("UIGradient")
 local Skin32 = Instance.new("UIGradient")
 local Skin5 = Instance.new("ImageLabel")
@@ -150,6 +153,30 @@ local Corner_2 = Instance.new("UICorner")
 local Skin1_2 = Instance.new("UIGradient")
 
 --Properties:
+
+OopssGui.Name = "OopssGui"
+OopssGui.Parent = game.StarterGui.OopssGuiBABFT.GUI
+OopssGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OopssGui.BorderSizePixel = 3
+OopssGui.Position = UDim2.new(0.850000024, 0, 0.75, 0)
+OopssGui.Size = UDim2.new(0, 200, 0, 50)
+OopssGui.Visible = false
+OopssGui.ZIndex = 2
+OopssGui.Modal = true
+OopssGui.Font = Enum.Font.SourceSans
+OopssGui.Text = "OopssGui"
+OopssGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OopssGui.TextScaled = true
+OopssGui.TextSize = 55.000
+OopssGui.TextStrokeTransparency = 0.800
+OopssGui.TextWrapped = true
+
+UICorner.CornerRadius = UDim.new(0.5, 0)
+UICorner.Parent = OopssGui
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient.Rotation = 12
+UIGradient.Parent = OopssGui
 
 menu.Name = "menu"
 menu.Parent = game.StarterGui.OopssGuiBABFT.GUI
@@ -168,8 +195,8 @@ Other.Position = UDim2.new(0.100000024, 0, 0.399999976, 0)
 Other.Size = UDim2.new(0, 237, 0, 265)
 Other.ZIndex = 2
 
-UICorner.CornerRadius = UDim.new(0, 15)
-UICorner.Parent = Other
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = Other
 
 Other_2.Name = "Other"
 Other_2.Parent = Other
@@ -196,8 +223,8 @@ Water.TextSize = 20.000
 Water.TextWrapped = true
 Water.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_2.CornerRadius = UDim.new(0, 5)
-UICorner_2.Parent = Water
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = Water
 
 JumpText.Name = "JumpText"
 JumpText.Parent = Other
@@ -211,8 +238,8 @@ JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpText.TextSize = 22.000
 JumpText.TextWrapped = true
 
-UICorner_3.CornerRadius = UDim.new(0, 5)
-UICorner_3.Parent = JumpText
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = JumpText
 
 SetSpeed.Name = "SetSpeed"
 SetSpeed.Parent = Other
@@ -227,8 +254,8 @@ SetSpeed.TextScaled = true
 SetSpeed.TextSize = 10.000
 SetSpeed.TextWrapped = true
 
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = SetSpeed
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = SetSpeed
 
 SetGravity.Name = "SetGravity"
 SetGravity.Parent = Other
@@ -243,8 +270,8 @@ SetGravity.TextScaled = true
 SetGravity.TextSize = 10.000
 SetGravity.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 5)
-UICorner_5.Parent = SetGravity
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = SetGravity
 
 Speed.Name = "Speed"
 Speed.Parent = Other
@@ -261,8 +288,8 @@ Speed.TextScaled = true
 Speed.TextSize = 10.000
 Speed.TextWrapped = true
 
-UICorner_6.CornerRadius = UDim.new(0, 5)
-UICorner_6.Parent = Speed
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = Speed
 
 Gravity.Name = "Gravity"
 Gravity.Parent = Other
@@ -279,8 +306,8 @@ Gravity.TextScaled = true
 Gravity.TextSize = 10.000
 Gravity.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 5)
-UICorner_7.Parent = Gravity
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Gravity
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = Other
@@ -296,8 +323,8 @@ TeleportButton.TextSize = 10.000
 TeleportButton.TextWrapped = true
 TeleportButton.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_8.CornerRadius = UDim.new(0, 5)
-UICorner_8.Parent = TeleportButton
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = TeleportButton
 
 SpeedText.Name = "SpeedText"
 SpeedText.Parent = Other
@@ -311,8 +338,8 @@ SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpeedText.TextSize = 22.000
 SpeedText.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 5)
-UICorner_9.Parent = SpeedText
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = SpeedText
 
 Teleport.Name = "Teleport"
 Teleport.Parent = Other
@@ -331,8 +358,8 @@ Teleport.TextScaled = true
 Teleport.TextSize = 10.000
 Teleport.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 5)
-UICorner_10.Parent = Teleport
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Teleport
 
 Destroy.Name = "Destroy"
 Destroy.Parent = Other
@@ -348,8 +375,8 @@ Destroy.TextSize = 10.000
 Destroy.TextWrapped = true
 Destroy.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_11.CornerRadius = UDim.new(0, 5)
-UICorner_11.Parent = Destroy
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = Destroy
 
 TextLabel.Parent = Destroy
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -378,8 +405,8 @@ Teams.TextSize = 20.000
 Teams.TextWrapped = true
 Teams.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_12.CornerRadius = UDim.new(0, 5)
-UICorner_12.Parent = Teams
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = Teams
 
 AFK.Name = "AFK"
 AFK.Parent = Other
@@ -402,19 +429,19 @@ ImageButton.Size = UDim2.new(0, 20, 0, 20)
 ImageButton.ZIndex = 2
 ImageButton.Modal = true
 
-UICorner_13.CornerRadius = UDim.new(0, 10)
-UICorner_13.Parent = ImageButton
+UICorner_14.CornerRadius = UDim.new(0, 10)
+UICorner_14.Parent = ImageButton
 
 ImageLabel.Parent = AFK
 ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_14.CornerRadius = UDim.new(0, 10)
-UICorner_14.Parent = ImageLabel
+UICorner_15.CornerRadius = UDim.new(0, 10)
+UICorner_15.Parent = ImageLabel
 
-UICorner_15.CornerRadius = UDim.new(0, 5)
-UICorner_15.Parent = AFK
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = AFK
 
 GravityText.Name = "GravityText"
 GravityText.Parent = Other
@@ -428,8 +455,8 @@ GravityText.TextColor3 = Color3.fromRGB(0, 0, 0)
 GravityText.TextSize = 20.000
 GravityText.TextWrapped = true
 
-UICorner_16.CornerRadius = UDim.new(0, 5)
-UICorner_16.Parent = GravityText
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = GravityText
 
 Power.Name = "Power"
 Power.Parent = Other
@@ -446,8 +473,8 @@ Power.TextScaled = true
 Power.TextSize = 10.000
 Power.TextWrapped = true
 
-UICorner_17.CornerRadius = UDim.new(0, 5)
-UICorner_17.Parent = Power
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = Power
 
 SetPower.Name = "SetPower"
 SetPower.Parent = Other
@@ -462,8 +489,8 @@ SetPower.TextScaled = true
 SetPower.TextSize = 10.000
 SetPower.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 5)
-UICorner_18.Parent = SetPower
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = SetPower
 
 Fly.Name = "Fly"
 Fly.Parent = Other
@@ -486,19 +513,19 @@ ImageButton_2.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_2.ZIndex = 2
 ImageButton_2.Modal = true
 
-UICorner_19.CornerRadius = UDim.new(0, 10)
-UICorner_19.Parent = ImageButton_2
+UICorner_20.CornerRadius = UDim.new(0, 10)
+UICorner_20.Parent = ImageButton_2
 
 ImageLabel_2.Parent = Fly
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_2.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_20.CornerRadius = UDim.new(0, 10)
-UICorner_20.Parent = ImageLabel_2
+UICorner_21.CornerRadius = UDim.new(0, 10)
+UICorner_21.Parent = ImageLabel_2
 
-UICorner_21.CornerRadius = UDim.new(0, 5)
-UICorner_21.Parent = Fly
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = Fly
 
 Credits.Name = "Credits"
 Credits.Parent = menu
@@ -508,8 +535,8 @@ Credits.Position = UDim2.new(0.529999971, 0, 0.779999971, 0)
 Credits.Size = UDim2.new(0, 237, 0, 86)
 Credits.ZIndex = 2
 
-UICorner_22.CornerRadius = UDim.new(0, 15)
-UICorner_22.Parent = Credits
+UICorner_23.CornerRadius = UDim.new(0, 15)
+UICorner_23.Parent = Credits
 
 Credits_2.Name = "Credits"
 Credits_2.Parent = Credits
@@ -594,8 +621,8 @@ Morph.Position = UDim2.new(0.530000031, 0, 0.121000044, 0)
 Morph.Size = UDim2.new(0, 237, 0, 113)
 Morph.ZIndex = 2
 
-UICorner_23.CornerRadius = UDim.new(0, 15)
-UICorner_23.Parent = Morph
+UICorner_24.CornerRadius = UDim.new(0, 15)
+UICorner_24.Parent = Morph
 
 Morph_2.Name = "Morph"
 Morph_2.Parent = Morph
@@ -621,8 +648,8 @@ Chicken.TextColor3 = Color3.fromRGB(0, 0, 0)
 Chicken.TextSize = 20.000
 Chicken.TextWrapped = true
 
-UICorner_24.CornerRadius = UDim.new(0, 5)
-UICorner_24.Parent = Chicken
+UICorner_25.CornerRadius = UDim.new(0, 5)
+UICorner_25.Parent = Chicken
 
 Fox.Name = "Fox"
 Fox.Parent = Morph
@@ -636,8 +663,8 @@ Fox.TextColor3 = Color3.fromRGB(0, 0, 0)
 Fox.TextSize = 20.000
 Fox.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 5)
-UICorner_25.Parent = Fox
+UICorner_26.CornerRadius = UDim.new(0, 5)
+UICorner_26.Parent = Fox
 
 Penguin.Name = "Penguin"
 Penguin.Parent = Morph
@@ -651,8 +678,8 @@ Penguin.TextColor3 = Color3.fromRGB(0, 0, 0)
 Penguin.TextSize = 20.000
 Penguin.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 5)
-UICorner_26.Parent = Penguin
+UICorner_27.CornerRadius = UDim.new(0, 5)
+UICorner_27.Parent = Penguin
 
 Spam.Name = "Spam"
 Spam.Parent = menu
@@ -662,8 +689,8 @@ Spam.Position = UDim2.new(0.530000031, 0, 0.370000005, 0)
 Spam.Size = UDim2.new(0, 237, 0, 87)
 Spam.ZIndex = 2
 
-UICorner_27.CornerRadius = UDim.new(0, 15)
-UICorner_27.Parent = Spam
+UICorner_28.CornerRadius = UDim.new(0, 15)
+UICorner_28.Parent = Spam
 
 Spam_2.Name = "Spam"
 Spam_2.Parent = Spam
@@ -694,8 +721,8 @@ Message.TextScaled = true
 Message.TextSize = 10.000
 Message.TextWrapped = true
 
-UICorner_28.CornerRadius = UDim.new(0, 5)
-UICorner_28.Parent = Message
+UICorner_29.CornerRadius = UDim.new(0, 5)
+UICorner_29.Parent = Message
 
 Spamming.Name = "Spamming"
 Spamming.Parent = Spam
@@ -718,16 +745,16 @@ ImageButton_3.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_3.ZIndex = 2
 ImageButton_3.Modal = true
 
-UICorner_29.CornerRadius = UDim.new(0, 10)
-UICorner_29.Parent = ImageButton_3
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = ImageButton_3
 
 ImageLabel_3.Parent = Spamming
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_3.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_30.CornerRadius = UDim.new(0, 10)
-UICorner_30.Parent = ImageLabel_3
+UICorner_31.CornerRadius = UDim.new(0, 10)
+UICorner_31.Parent = ImageLabel_3
 
 Autobuy.Name = "Autobuy"
 Autobuy.Parent = menu
@@ -737,8 +764,8 @@ Autobuy.Position = UDim2.new(0.530000031, 0, 0.569999993, 0)
 Autobuy.Size = UDim2.new(0, 237, 0, 92)
 Autobuy.ZIndex = 2
 
-UICorner_31.CornerRadius = UDim.new(0, 15)
-UICorner_31.Parent = Autobuy
+UICorner_32.CornerRadius = UDim.new(0, 15)
+UICorner_32.Parent = Autobuy
 
 Text_2.Name = "Text"
 Text_2.Parent = Autobuy
@@ -774,16 +801,16 @@ ImageButton_4.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_4.ZIndex = 2
 ImageButton_4.Modal = true
 
-UICorner_32.CornerRadius = UDim.new(0, 10)
-UICorner_32.Parent = ImageButton_4
+UICorner_33.CornerRadius = UDim.new(0, 10)
+UICorner_33.Parent = ImageButton_4
 
 ImageLabel_4.Parent = AutoBuyController
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_4.Position = UDim2.new(0.768999994, 0, 0.100000001, 0)
 ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_33.CornerRadius = UDim.new(0, 10)
-UICorner_33.Parent = ImageLabel_4
+UICorner_34.CornerRadius = UDim.new(0, 10)
+UICorner_34.Parent = ImageLabel_4
 
 Select.Name = "Select"
 Select.Parent = Autobuy
@@ -799,8 +826,8 @@ Select.TextSize = 20.000
 Select.TextWrapped = true
 Select.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_34.CornerRadius = UDim.new(0, 5)
-UICorner_34.Parent = Select
+UICorner_35.CornerRadius = UDim.new(0, 5)
+UICorner_35.Parent = Select
 
 ImageLabel_5.Parent = Select
 ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -814,12 +841,12 @@ Selectbox.Position = UDim2.new(0.0249999482, 0, 0.350000143, 0)
 Selectbox.Size = UDim2.new(0, 225, 0, 112)
 Selectbox.Visible = false
 
-UICorner_35.CornerRadius = UDim.new(0, 5)
-UICorner_35.Parent = Selectbox
+UICorner_36.CornerRadius = UDim.new(0, 5)
+UICorner_36.Parent = Selectbox
 
-UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 85, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 159, 159))}
-UIGradient.Rotation = -45
-UIGradient.Parent = Selectbox
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 85, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 159, 159))}
+UIGradient_2.Rotation = -45
+UIGradient_2.Parent = Selectbox
 
 LegendaryChest.Name = "Legendary Chest"
 LegendaryChest.Parent = Selectbox
@@ -839,8 +866,8 @@ ImageLabel_6.BackgroundTransparency = 1.000
 ImageLabel_6.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_6.Image = "rbxassetid://3040808977"
 
-UICorner_36.CornerRadius = UDim.new(0, 15)
-UICorner_36.Parent = LegendaryChest
+UICorner_37.CornerRadius = UDim.new(0, 15)
+UICorner_37.Parent = LegendaryChest
 
 EpicChest.Name = "Epic Chest"
 EpicChest.Parent = Selectbox
@@ -861,8 +888,8 @@ ImageLabel_7.BackgroundTransparency = 1.000
 ImageLabel_7.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_7.Image = "rbxassetid://3040808420"
 
-UICorner_37.CornerRadius = UDim.new(0, 15)
-UICorner_37.Parent = EpicChest
+UICorner_38.CornerRadius = UDim.new(0, 15)
+UICorner_38.Parent = EpicChest
 
 RareChest.Name = "Rare Chest"
 RareChest.Parent = Selectbox
@@ -883,8 +910,8 @@ ImageLabel_8.BackgroundTransparency = 1.000
 ImageLabel_8.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_8.Image = "rbxassetid://3040806618"
 
-UICorner_38.CornerRadius = UDim.new(0, 15)
-UICorner_38.Parent = RareChest
+UICorner_39.CornerRadius = UDim.new(0, 15)
+UICorner_39.Parent = RareChest
 
 UncommonChest.Name = "Uncommon Chest"
 UncommonChest.Parent = Selectbox
@@ -905,8 +932,8 @@ ImageLabel_9.BackgroundTransparency = 1.000
 ImageLabel_9.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_9.Image = "rbxassetid://3040805332"
 
-UICorner_39.CornerRadius = UDim.new(0, 15)
-UICorner_39.Parent = UncommonChest
+UICorner_40.CornerRadius = UDim.new(0, 15)
+UICorner_40.Parent = UncommonChest
 
 CommonChest.Name = "Common Chest"
 CommonChest.Parent = Selectbox
@@ -927,8 +954,8 @@ ImageLabel_10.BackgroundTransparency = 1.000
 ImageLabel_10.Size = UDim2.new(0, 20, 0, 20)
 ImageLabel_10.Image = "rbxassetid://3040800633"
 
-UICorner_40.CornerRadius = UDim.new(0, 15)
-UICorner_40.Parent = CommonChest
+UICorner_41.CornerRadius = UDim.new(0, 15)
+UICorner_41.Parent = CommonChest
 
 Soon.Name = "Soon"
 Soon.Parent = Autobuy
@@ -948,8 +975,8 @@ Autofarm.Position = UDim2.new(0.100000001, 0, 0.120999999, 0)
 Autofarm.Size = UDim2.new(0, 237, 0, 128)
 Autofarm.ZIndex = 2
 
-UICorner_41.CornerRadius = UDim.new(0, 15)
-UICorner_41.Parent = Autofarm
+UICorner_42.CornerRadius = UDim.new(0, 15)
+UICorner_42.Parent = Autofarm
 
 TextLabel_2.Parent = Autofarm
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -983,16 +1010,16 @@ ImageButton_5.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_5.ZIndex = 2
 ImageButton_5.Modal = true
 
-UICorner_42.CornerRadius = UDim.new(0, 10)
-UICorner_42.Parent = ImageButton_5
+UICorner_43.CornerRadius = UDim.new(0, 10)
+UICorner_43.Parent = ImageButton_5
 
 ImageLabel_11.Parent = Normal
 ImageLabel_11.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_11.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_11.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_43.CornerRadius = UDim.new(0, 10)
-UICorner_43.Parent = ImageLabel_11
+UICorner_44.CornerRadius = UDim.new(0, 10)
+UICorner_44.Parent = ImageLabel_11
 
 Fast.Name = "Fast"
 Fast.Parent = Autofarm
@@ -1015,16 +1042,16 @@ ImageButton_6.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_6.ZIndex = 2
 ImageButton_6.Modal = true
 
-UICorner_44.CornerRadius = UDim.new(0, 10)
-UICorner_44.Parent = ImageButton_6
+UICorner_45.CornerRadius = UDim.new(0, 10)
+UICorner_45.Parent = ImageButton_6
 
 ImageLabel_12.Parent = Fast
 ImageLabel_12.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_12.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_12.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_45.CornerRadius = UDim.new(0, 10)
-UICorner_45.Parent = ImageLabel_12
+UICorner_46.CornerRadius = UDim.new(0, 10)
+UICorner_46.Parent = ImageLabel_12
 
 Teleport_2.Name = "Teleport"
 Teleport_2.Parent = Autofarm
@@ -1047,16 +1074,16 @@ ImageButton_7.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_7.ZIndex = 2
 ImageButton_7.Modal = true
 
-UICorner_46.CornerRadius = UDim.new(0, 10)
-UICorner_46.Parent = ImageButton_7
+UICorner_47.CornerRadius = UDim.new(0, 10)
+UICorner_47.Parent = ImageButton_7
 
 ImageLabel_13.Parent = Teleport_2
 ImageLabel_13.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_13.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_13.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_47.CornerRadius = UDim.new(0, 10)
-UICorner_47.Parent = ImageLabel_13
+UICorner_48.CornerRadius = UDim.new(0, 10)
+UICorner_48.Parent = ImageLabel_13
 
 Onlygoldblock.Name = "Only gold block"
 Onlygoldblock.Parent = Autofarm
@@ -1079,16 +1106,16 @@ ImageButton_8.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_8.ZIndex = 2
 ImageButton_8.Modal = true
 
-UICorner_48.CornerRadius = UDim.new(0, 10)
-UICorner_48.Parent = ImageButton_8
+UICorner_49.CornerRadius = UDim.new(0, 10)
+UICorner_49.Parent = ImageButton_8
 
 ImageLabel_14.Parent = Onlygoldblock
 ImageLabel_14.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_14.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_14.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_49.CornerRadius = UDim.new(0, 10)
-UICorner_49.Parent = ImageLabel_14
+UICorner_50.CornerRadius = UDim.new(0, 10)
+UICorner_50.Parent = ImageLabel_14
 
 Skins.Name = "Skins"
 Skins.Parent = menu
@@ -1097,8 +1124,8 @@ Skins.Position = UDim2.new(-0.180000007, 0, 0.200000003, 0)
 Skins.Size = UDim2.new(0, 100, 0, 300)
 Skins.Image = "http://www.roblox.com/asset/?id=5106388908"
 
-UICorner_50.CornerRadius = UDim.new(0.100000001, 15)
-UICorner_50.Parent = Skins
+UICorner_51.CornerRadius = UDim.new(0.100000001, 15)
+UICorner_51.Parent = Skins
 
 Skin1.Name = "Skin1"
 Skin1.Parent = Skins
@@ -1110,9 +1137,9 @@ UiCorner.CornerRadius = UDim.new(0, 10)
 UiCorner.Name = "UiCorner"
 UiCorner.Parent = Skin1
 
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 85, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 159, 159))}
-UIGradient_2.Rotation = 45
-UIGradient_2.Parent = Skin1
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 85, 85)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(159, 159, 159))}
+UIGradient_3.Rotation = 45
+UIGradient_3.Parent = Skin1
 
 Num.Name = "Num"
 Num.Parent = Skin1
@@ -1144,9 +1171,9 @@ Num_2.Text = "2"
 Num_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Num_2.TextSize = 30.000
 
-UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
-UIGradient_3.Rotation = 45
-UIGradient_3.Parent = Skin2
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_4.Rotation = 45
+UIGradient_4.Parent = Skin2
 
 Skin3.Name = "Skin3"
 Skin3.Parent = Skins
@@ -1211,8 +1238,8 @@ SkinsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 SkinsButton.TextSize = 40.000
 SkinsButton.TextWrapped = true
 
-UICorner_51.CornerRadius = UDim.new(0, 15)
-UICorner_51.Parent = SkinsButton
+UICorner_52.CornerRadius = UDim.new(0, 15)
+UICorner_52.Parent = SkinsButton
 
 Skin2_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
 Skin2_2.Rotation = 12
@@ -1248,7 +1275,37 @@ Skin1_2.Parent = menu
 
 -- Scripts:
 
-local function VBEKNBC_fake_script() -- Water.LocalScript 
+local function YCSHAHN_fake_script() -- OopssGui.LocalScript 
+	local script = Instance.new('LocalScript', OopssGui)
+
+	local click = script.Parent.Parent:findFirstChild("Click")
+	local stats = false
+	local waittime = true
+	local gradient = script.Parent.UIGradient
+	script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
+	wait(1)
+	script.Parent.Parent.menu.Visible = true
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if waittime == true then
+			waittime = false
+			click:play()
+			if	stats == false then
+				gradient.Rotation = gradient.Rotation + 180
+				script.Parent.Parent.menu:TweenPosition(UDim2.new(0.3, 0,0.2, 5))
+				stats = true
+			else
+				gradient.Rotation = gradient.Rotation + 180
+				script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
+				stats = false
+			end
+			wait(2)
+			waittime = true
+		end
+	end)
+end
+coroutine.wrap(YCSHAHN_fake_script)()
+local function XSFKFK_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1257,8 +1314,8 @@ local function VBEKNBC_fake_script() -- Water.LocalScript
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(VBEKNBC_fake_script)()
-local function BGNN_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(XSFKFK_fake_script)()
+local function NPYSU_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1272,8 +1329,8 @@ local function BGNN_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(BGNN_fake_script)()
-local function QHEF_fake_script() -- SetGravity.uiSetup 
+coroutine.wrap(NPYSU_fake_script)()
+local function WTIRJ_fake_script() -- SetGravity.uiSetup 
 	local script = Instance.new('LocalScript', SetGravity)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1288,8 +1345,8 @@ local function QHEF_fake_script() -- SetGravity.uiSetup
 	end)
 	
 end
-coroutine.wrap(QHEF_fake_script)()
-local function NAFU_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(WTIRJ_fake_script)()
+local function TBKWBZ_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1310,8 +1367,8 @@ local function NAFU_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(NAFU_fake_script)()
-local function INARY_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(TBKWBZ_fake_script)()
+local function JTFHEGU_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1325,8 +1382,8 @@ local function INARY_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGuiBABFT:Destroy()
 	end)
 end
-coroutine.wrap(INARY_fake_script)()
-local function IHMA_fake_script() -- Teams.LocalScript 
+coroutine.wrap(JTFHEGU_fake_script)()
+local function JVOIG_fake_script() -- Teams.LocalScript 
 	local script = Instance.new('LocalScript', Teams)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1383,8 +1440,8 @@ local function IHMA_fake_script() -- Teams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IHMA_fake_script)()
-local function TATM_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(JVOIG_fake_script)()
+local function NARKQP_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1397,8 +1454,8 @@ local function TATM_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TATM_fake_script)()
-local function KBQPUWG_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(NARKQP_fake_script)()
+local function ORPWZJ_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1413,8 +1470,8 @@ local function KBQPUWG_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(KBQPUWG_fake_script)()
-local function LGHASA_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(ORPWZJ_fake_script)()
+local function OEGHF_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1427,8 +1484,8 @@ local function LGHASA_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LGHASA_fake_script)()
-local function ROSRGHJ_fake_script() -- Chicken.LocalScript 
+coroutine.wrap(OEGHF_fake_script)()
+local function YQSYD_fake_script() -- Chicken.LocalScript 
 	local script = Instance.new('LocalScript', Chicken)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1439,8 +1496,8 @@ local function ROSRGHJ_fake_script() -- Chicken.LocalScript
 		Event:FireServer(A_2)
 	end)
 end
-coroutine.wrap(ROSRGHJ_fake_script)()
-local function ZPYIOUY_fake_script() -- Fox.LocalScript 
+coroutine.wrap(YQSYD_fake_script)()
+local function DTARZM_fake_script() -- Fox.LocalScript 
 	local script = Instance.new('LocalScript', Fox)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1451,8 +1508,8 @@ local function ZPYIOUY_fake_script() -- Fox.LocalScript
 		Event:FireServer(A_1)
 	end)
 end
-coroutine.wrap(ZPYIOUY_fake_script)()
-local function VBTDW_fake_script() -- Penguin.LocalScript 
+coroutine.wrap(DTARZM_fake_script)()
+local function HBTFI_fake_script() -- Penguin.LocalScript 
 	local script = Instance.new('LocalScript', Penguin)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1463,8 +1520,8 @@ local function VBTDW_fake_script() -- Penguin.LocalScript
 		Event:FireServer(A_3)
 	end)
 end
-coroutine.wrap(VBTDW_fake_script)()
-local function UHYKVJ_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(HBTFI_fake_script)()
+local function MJLD_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1477,8 +1534,8 @@ local function UHYKVJ_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UHYKVJ_fake_script)()
-local function RFRQ_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(MJLD_fake_script)()
+local function FGZFJA_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1490,8 +1547,8 @@ local function RFRQ_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RFRQ_fake_script)()
-local function EPEK_fake_script() -- Select.LocalScript 
+coroutine.wrap(FGZFJA_fake_script)()
+local function ETHU_fake_script() -- Select.LocalScript 
 	local script = Instance.new('LocalScript', Select)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1500,8 +1557,8 @@ local function EPEK_fake_script() -- Select.LocalScript
 		script.Parent.Parent.Selectbox.Visible = true
 	end)
 end
-coroutine.wrap(EPEK_fake_script)()
-local function BSXEFJ_fake_script() -- LegendaryChest.LocalScript 
+coroutine.wrap(ETHU_fake_script)()
+local function YNHE_fake_script() -- LegendaryChest.LocalScript 
 	local script = Instance.new('LocalScript', LegendaryChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1512,8 +1569,8 @@ local function BSXEFJ_fake_script() -- LegendaryChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(BSXEFJ_fake_script)()
-local function FJFXNNA_fake_script() -- EpicChest.LocalScript 
+coroutine.wrap(YNHE_fake_script)()
+local function IWIDYJ_fake_script() -- EpicChest.LocalScript 
 	local script = Instance.new('LocalScript', EpicChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1524,8 +1581,8 @@ local function FJFXNNA_fake_script() -- EpicChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(FJFXNNA_fake_script)()
-local function SRUO_fake_script() -- RareChest.LocalScript 
+coroutine.wrap(IWIDYJ_fake_script)()
+local function HHSWJ_fake_script() -- RareChest.LocalScript 
 	local script = Instance.new('LocalScript', RareChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1536,8 +1593,8 @@ local function SRUO_fake_script() -- RareChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(SRUO_fake_script)()
-local function DIGB_fake_script() -- UncommonChest.LocalScript 
+coroutine.wrap(HHSWJ_fake_script)()
+local function ETTZV_fake_script() -- UncommonChest.LocalScript 
 	local script = Instance.new('LocalScript', UncommonChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1548,8 +1605,8 @@ local function DIGB_fake_script() -- UncommonChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(DIGB_fake_script)()
-local function CIRAQ_fake_script() -- CommonChest.LocalScript 
+coroutine.wrap(ETTZV_fake_script)()
+local function KKYQ_fake_script() -- CommonChest.LocalScript 
 	local script = Instance.new('LocalScript', CommonChest)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1560,8 +1617,8 @@ local function CIRAQ_fake_script() -- CommonChest.LocalScript
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(CIRAQ_fake_script)()
-local function SCFA_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(KKYQ_fake_script)()
+local function RLGZJA_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1574,8 +1631,8 @@ local function SCFA_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SCFA_fake_script)()
-local function ZBSWVQ_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(RLGZJA_fake_script)()
+local function LNXE_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1588,8 +1645,8 @@ local function ZBSWVQ_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZBSWVQ_fake_script)()
-local function MXGKR_fake_script() -- ImageButton_7.LocalScript 
+coroutine.wrap(LNXE_fake_script)()
+local function LEHIDU_fake_script() -- ImageButton_7.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_7)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1602,8 +1659,8 @@ local function MXGKR_fake_script() -- ImageButton_7.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MXGKR_fake_script)()
-local function QINQJWG_fake_script() -- ImageButton_8.LocalScript 
+coroutine.wrap(LEHIDU_fake_script)()
+local function PPSQ_fake_script() -- ImageButton_8.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_8)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1616,8 +1673,8 @@ local function QINQJWG_fake_script() -- ImageButton_8.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QINQJWG_fake_script)()
-local function TLXET_fake_script() -- Skin1.LocalScript 
+coroutine.wrap(PPSQ_fake_script)()
+local function CAWF_fake_script() -- Skin1.LocalScript 
 	local script = Instance.new('LocalScript', Skin1)
 
 	local menu = script.Parent.Parent.Parent
@@ -1646,8 +1703,8 @@ local function TLXET_fake_script() -- Skin1.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(TLXET_fake_script)()
-local function QDCSJE_fake_script() -- Skin2.LocalScript 
+coroutine.wrap(CAWF_fake_script)()
+local function LYDAUCO_fake_script() -- Skin2.LocalScript 
 	local script = Instance.new('LocalScript', Skin2)
 
 	local menu = script.Parent.Parent.Parent
@@ -1662,8 +1719,8 @@ local function QDCSJE_fake_script() -- Skin2.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(QDCSJE_fake_script)()
-local function FMVSUI_fake_script() -- Skin3.LocalScript 
+coroutine.wrap(LYDAUCO_fake_script)()
+local function PKQDB_fake_script() -- Skin3.LocalScript 
 	local script = Instance.new('LocalScript', Skin3)
 
 	local menu = script.Parent.Parent.Parent
@@ -1678,8 +1735,8 @@ local function FMVSUI_fake_script() -- Skin3.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(FMVSUI_fake_script)()
-local function BGKBFY_fake_script() -- Skin4.LocalScript 
+coroutine.wrap(PKQDB_fake_script)()
+local function ICKMRM_fake_script() -- Skin4.LocalScript 
 	local script = Instance.new('LocalScript', Skin4)
 
 	local menu = script.Parent.Parent.Parent
@@ -1694,8 +1751,8 @@ local function BGKBFY_fake_script() -- Skin4.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(BGKBFY_fake_script)()
-local function VXIAPM_fake_script() -- SkinAnime.LocalScript 
+coroutine.wrap(ICKMRM_fake_script)()
+local function VGQLIHS_fake_script() -- SkinAnime.LocalScript 
 	local script = Instance.new('LocalScript', SkinAnime)
 
 	local menu = script.Parent.Parent.Parent
@@ -1710,8 +1767,8 @@ local function VXIAPM_fake_script() -- SkinAnime.LocalScript
 		menu["Skin3-2"].Enabled = false
 	end)
 end
-coroutine.wrap(VXIAPM_fake_script)()
-local function BRGAKM_fake_script() -- SkinsButton.LocalScript 
+coroutine.wrap(VGQLIHS_fake_script)()
+local function MJQYMO_fake_script() -- SkinsButton.LocalScript 
 	local script = Instance.new('LocalScript', SkinsButton)
 
 	local click = script.Parent.Parent.Parent:findFirstChild("Click")
@@ -1725,4 +1782,4 @@ local function BRGAKM_fake_script() -- SkinsButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BRGAKM_fake_script)()
+coroutine.wrap(MJQYMO_fake_script)()
