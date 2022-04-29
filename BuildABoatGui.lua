@@ -618,3 +618,4 @@ local function KIRWM_fake_script() -- GUI.Fly
 	Fly()
 end
 coroutine.wrap(KIRWM_fake_script)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/BuildABoatGui2.lua", true))()
