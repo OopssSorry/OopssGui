@@ -20,7 +20,6 @@ Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorr
 - Morph:Fox - work
 - Morph:Chicken - work
 - Morph:Penguin - work
-- Chat spammer - work
 - Autobuy chest - __Comming soon__
 - Key - work
 
