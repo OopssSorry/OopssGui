@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local Skins = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
 local Skin1 = Instance.new("ImageButton")
@@ -15,6 +20,12 @@ local Skin4 = Instance.new("ImageButton")
 local UiCorner_4 = Instance.new("UICorner")
 local Num_4 = Instance.new("TextLabel")
 local SkinAnime = Instance.new("ImageButton")
+local Skin5 = Instance.new("ImageLabel")
+local Corner = Instance.new("UICorner")
+local SkinsButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Skin2_2 = Instance.new("UIGradient")
+local Skin32 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -125,9 +136,49 @@ SkinAnime.Position = UDim2.new(0.200000003, 0, 0.899999917, 0)
 SkinAnime.Size = UDim2.new(0, 35, 0, 30)
 SkinAnime.Image = "http://www.roblox.com/asset/?id=945579043"
 
+Skin5.Name = "Skin5"
+Skin5.Parent = game.Players.LocalPlayer.PlayerGui.OopssGuiBABFT.GUI.menu
+Skin5.BackgroundColor3 = Color3.fromRGB(255, 170, 255)
+Skin5.Size = UDim2.new(1, 0, 1, 0)
+Skin5.Visible = false
+Skin5.Image = "http://www.roblox.com/asset/?id=945579043"
+
+Corner.CornerRadius = UDim.new(0.100000001, 15)
+Corner.Name = "Corner"
+Corner.Parent = Skin5
+
+SkinsButton.Name = "SkinsButton"
+SkinsButton.Parent = game.Players.LocalPlayer.PlayerGui.OopssGuiBABFT.GUI.menu
+SkinsButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+SkinsButton.BackgroundTransparency = 0.700
+SkinsButton.Position = UDim2.new(-0.0329999998, 0, 0.449999988, 0)
+SkinsButton.Rotation = -90.000
+SkinsButton.Size = UDim2.new(0, 100, 0, 50)
+SkinsButton.ZIndex = 2
+SkinsButton.Font = Enum.Font.SourceSans
+SkinsButton.Text = "Skins"
+SkinsButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+SkinsButton.TextSize = 40.000
+SkinsButton.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 15)
+UICorner_2.Parent = SkinsButton
+
+Skin2_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+Skin2_2.Rotation = 12
+Skin2_2.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.20), NumberSequenceKeypoint.new(1.00, 0.20)}
+Skin2_2.Name = "Skin2"
+Skin2_2.Parent = game.Players.LocalPlayer.PlayerGui.OopssGuiBABFT.GUI.menu
+
+Skin32.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(70, 0, 1)), ColorSequenceKeypoint.new(0.10, Color3.fromRGB(150, 0, 2)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(150, 0, 2)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(70, 0, 1))}
+Skin32.Rotation = 45
+Skin32.Transparency = NumberSequence.new{NumberSequenceKeypoint.new(0.00, 0.30), NumberSequenceKeypoint.new(1.00, 0.30)}
+Skin32.Name = "Skin3-2"
+Skin32.Parent = game.Players.LocalPlayer.PlayerGui.OopssGuiBABFT.GUI.menu
+
 -- Scripts:
 
-local function FOYY_fake_script() -- Skin1.LocalScript 
+local function UMGWOZ_fake_script() -- Skin1.LocalScript 
 	local script = Instance.new('LocalScript', Skin1)
 
 	local menu = script.Parent.Parent.Parent
@@ -156,8 +207,8 @@ local function FOYY_fake_script() -- Skin1.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(FOYY_fake_script)()
-local function TABDDP_fake_script() -- Skin2.LocalScript 
+coroutine.wrap(UMGWOZ_fake_script)()
+local function YZWS_fake_script() -- Skin2.LocalScript 
 	local script = Instance.new('LocalScript', Skin2)
 
 	local menu = script.Parent.Parent.Parent
@@ -172,8 +223,8 @@ local function TABDDP_fake_script() -- Skin2.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(TABDDP_fake_script)()
-local function JDWXHD_fake_script() -- Skin3.LocalScript 
+coroutine.wrap(YZWS_fake_script)()
+local function XSKLTS_fake_script() -- Skin3.LocalScript 
 	local script = Instance.new('LocalScript', Skin3)
 
 	local menu = script.Parent.Parent.Parent
@@ -188,8 +239,8 @@ local function JDWXHD_fake_script() -- Skin3.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(JDWXHD_fake_script)()
-local function HDBYQF_fake_script() -- Skin4.LocalScript 
+coroutine.wrap(XSKLTS_fake_script)()
+local function FDBLP_fake_script() -- Skin4.LocalScript 
 	local script = Instance.new('LocalScript', Skin4)
 
 	local menu = script.Parent.Parent.Parent
@@ -204,8 +255,8 @@ local function HDBYQF_fake_script() -- Skin4.LocalScript
 		menu.Skin5.Visible = false
 	end)
 end
-coroutine.wrap(HDBYQF_fake_script)()
-local function VWSRZ_fake_script() -- SkinAnime.LocalScript 
+coroutine.wrap(FDBLP_fake_script)()
+local function MOTK_fake_script() -- SkinAnime.LocalScript 
 	local script = Instance.new('LocalScript', SkinAnime)
 
 	local menu = script.Parent.Parent.Parent
@@ -220,4 +271,19 @@ local function VWSRZ_fake_script() -- SkinAnime.LocalScript
 		menu["Skin3-2"].Enabled = false
 	end)
 end
-coroutine.wrap(VWSRZ_fake_script)()
+coroutine.wrap(MOTK_fake_script)()
+local function XLCXLN_fake_script() -- SkinsButton.LocalScript 
+	local script = Instance.new('LocalScript', SkinsButton)
+
+	local click = script.Parent.Parent.Parent:findFirstChild("Click")
+	script.Parent.Parent.Skins.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		click:play()
+		if script.Parent.Parent.Skins.Visible == false then
+			script.Parent.Parent.Skins.Visible = true
+		else
+			script.Parent.Parent.Skins.Visible = false
+		end
+	end)
+end
+coroutine.wrap(XLCXLN_fake_script)()
