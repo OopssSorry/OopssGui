@@ -1,6 +1,6 @@
 # OopssGui
 
-Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/MainOopssGui", true))()`*
+Script -  *`loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/MainOopssGui", true))()`*
 
 # Games
 
