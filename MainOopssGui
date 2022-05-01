@@ -218,7 +218,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function NQZNV_fake_script() -- START.Rainbower 
+local function LXQNJ_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,8 +260,8 @@ local function NQZNV_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(NQZNV_fake_script)()
-local function FTASF_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(LXQNJ_fake_script)()
+local function IPLICML_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
@@ -277,6 +277,8 @@ local function FTASF_fake_script() -- OopssGuiMain.__MAIN__
 			button.TextColor3 = Color3.new(0, 0.666667, 0)
 			if game.PlaceId == 537413528 then
 				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/BuildABoatGui.lua", true))()
+			elseif	game.PlaceId == 990364410 then
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/SurviveTheNightGui.lua", true))()
 			else
 				local message = Instance.new("Hint")
 				message.Text = "Game not found!!!"
@@ -290,4 +292,4 @@ local function FTASF_fake_script() -- OopssGuiMain.__MAIN__
 		wait(0.5)
 	end
 end
-coroutine.wrap(FTASF_fake_script)()
+coroutine.wrap(IPLICML_fake_script)()
