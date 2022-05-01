@@ -101,7 +101,7 @@ local Sad = Instance.new("ImageLabel")
 --Properties:
 
 OopssGuiBABFT.Name = "OopssGuiBABFT"
-OopssGuiBABFT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OopssGuiBABFT.Parent = game.Workspace
 OopssGuiBABFT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 OopssGuiBABFT.ResetOnSpawn = false
 
@@ -817,7 +817,7 @@ Sad.Image = "http://www.roblox.com/asset/?id=8187018140"
 
 -- Scripts:
 
-local function JBCFYP_fake_script() -- OopssGuiBABFT.Start 
+local function ERGVMNK_fake_script() -- OopssGuiBABFT.Start 
 	local script = Instance.new('LocalScript', OopssGuiBABFT)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
@@ -834,8 +834,8 @@ local function JBCFYP_fake_script() -- OopssGuiBABFT.Start
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(JBCFYP_fake_script)()
-local function RRFZKWF_fake_script() -- Frame.Client 
+coroutine.wrap(ERGVMNK_fake_script)()
+local function BMWQCB_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -870,8 +870,8 @@ local function RRFZKWF_fake_script() -- Frame.Client
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(RRFZKWF_fake_script)()
-local function HIFHKW_fake_script() -- Water.LocalScript 
+coroutine.wrap(BMWQCB_fake_script)()
+local function SUTH_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -880,8 +880,8 @@ local function HIFHKW_fake_script() -- Water.LocalScript
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(HIFHKW_fake_script)()
-local function AWARTMQ_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(SUTH_fake_script)()
+local function YPWV_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -895,8 +895,8 @@ local function AWARTMQ_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(AWARTMQ_fake_script)()
-local function SBPY_fake_script() -- SetGravity.uiSetup 
+coroutine.wrap(YPWV_fake_script)()
+local function KOCSWG_fake_script() -- SetGravity.uiSetup 
 	local script = Instance.new('LocalScript', SetGravity)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -911,8 +911,8 @@ local function SBPY_fake_script() -- SetGravity.uiSetup
 	end)
 	
 end
-coroutine.wrap(SBPY_fake_script)()
-local function KWNFSCV_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(KOCSWG_fake_script)()
+local function THSNUA_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -933,8 +933,8 @@ local function KWNFSCV_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(KWNFSCV_fake_script)()
-local function FTQBA_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(THSNUA_fake_script)()
+local function QENVGJ_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -948,8 +948,8 @@ local function FTQBA_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGuiBABFT:Destroy()
 	end)
 end
-coroutine.wrap(FTQBA_fake_script)()
-local function CSMJ_fake_script() -- Teams.LocalScript 
+coroutine.wrap(QENVGJ_fake_script)()
+local function CJQT_fake_script() -- Teams.LocalScript 
 	local script = Instance.new('LocalScript', Teams)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1006,8 +1006,8 @@ local function CSMJ_fake_script() -- Teams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CSMJ_fake_script)()
-local function COUZH_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(CJQT_fake_script)()
+local function GTXBQ_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1020,8 +1020,8 @@ local function COUZH_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(COUZH_fake_script)()
-local function SYKWV_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(GTXBQ_fake_script)()
+local function XCYKWL_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1036,8 +1036,8 @@ local function SYKWV_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(SYKWV_fake_script)()
-local function MBRHW_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(XCYKWL_fake_script)()
+local function DKCVTN_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1050,8 +1050,8 @@ local function MBRHW_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MBRHW_fake_script)()
-local function VSJOSB_fake_script() -- Chicken.LocalScript 
+coroutine.wrap(DKCVTN_fake_script)()
+local function HFRWI_fake_script() -- Chicken.LocalScript 
 	local script = Instance.new('LocalScript', Chicken)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1062,8 +1062,8 @@ local function VSJOSB_fake_script() -- Chicken.LocalScript
 		Event:FireServer(A_2)
 	end)
 end
-coroutine.wrap(VSJOSB_fake_script)()
-local function NETH_fake_script() -- Fox.LocalScript 
+coroutine.wrap(HFRWI_fake_script)()
+local function TXOI_fake_script() -- Fox.LocalScript 
 	local script = Instance.new('LocalScript', Fox)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1074,8 +1074,8 @@ local function NETH_fake_script() -- Fox.LocalScript
 		Event:FireServer(A_1)
 	end)
 end
-coroutine.wrap(NETH_fake_script)()
-local function SNCGW_fake_script() -- Penguin.LocalScript 
+coroutine.wrap(TXOI_fake_script)()
+local function DIYRJJ_fake_script() -- Penguin.LocalScript 
 	local script = Instance.new('LocalScript', Penguin)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1086,8 +1086,8 @@ local function SNCGW_fake_script() -- Penguin.LocalScript
 		Event:FireServer(A_3)
 	end)
 end
-coroutine.wrap(SNCGW_fake_script)()
-local function FQKMV_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(DIYRJJ_fake_script)()
+local function DQRUT_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1100,8 +1100,8 @@ local function FQKMV_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FQKMV_fake_script)()
-local function JWXPWY_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(DQRUT_fake_script)()
+local function QNKC_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1114,8 +1114,8 @@ local function JWXPWY_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JWXPWY_fake_script)()
-local function BPXLNC_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(QNKC_fake_script)()
+local function YOCIP_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1128,8 +1128,8 @@ local function BPXLNC_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BPXLNC_fake_script)()
-local function QQAOMNC_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(YOCIP_fake_script)()
+local function XYGXMPJ_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1142,8 +1142,8 @@ local function QQAOMNC_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QQAOMNC_fake_script)()
-local function KENAP_fake_script() -- OopssGui.LocalScript 
+coroutine.wrap(XYGXMPJ_fake_script)()
+local function MKLKP_fake_script() -- OopssGui.LocalScript 
 	local script = Instance.new('LocalScript', OopssGui)
 
 	local click = script.Parent.Parent:findFirstChild("Click")
@@ -1172,8 +1172,8 @@ local function KENAP_fake_script() -- OopssGui.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KENAP_fake_script)()
-local function RNUTLR_fake_script() -- GUI.Fast 
+coroutine.wrap(MKLKP_fake_script)()
+local function NHOZX_fake_script() -- GUI.Fast 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -1200,7 +1200,7 @@ local function RNUTLR_fake_script() -- GUI.Fast
 	end)
 	game.Workspace.ChildAdded:connect(function(c)
 		if game.Players[c.Name] then
-			if game.Players[c.Name] == game.Players.LocalPlayer.Name then
+			if c.Name == game.Players.LocalPlayer.Name then
 				if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
 					wait(1)
 					Repeat2()
@@ -1209,8 +1209,8 @@ local function RNUTLR_fake_script() -- GUI.Fast
 		end
 	end)
 end
-coroutine.wrap(RNUTLR_fake_script)()
-local function VXNELA_fake_script() -- GUI.Fly 
+coroutine.wrap(NHOZX_fake_script)()
+local function ZCXC_fake_script() -- GUI.Fly 
 	local script = Instance.new('LocalScript', GUI)
 
 	script.Parent.menu.Other.Fly.ImageButton.MouseButton1Click:Connect(function()
@@ -1221,8 +1221,8 @@ local function VXNELA_fake_script() -- GUI.Fly
 		end
 	end)
 end
-coroutine.wrap(VXNELA_fake_script)()
-local function KVRIZJ_fake_script() -- GUI.Normal 
+coroutine.wrap(ZCXC_fake_script)()
+local function UZTNSKP_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -1249,7 +1249,7 @@ local function KVRIZJ_fake_script() -- GUI.Normal
 	end)
 	game.Workspace.ChildAdded:connect(function(c)
 		if game.Players[c.Name] then
-			if game.Players[c.Name] == game.Players.LocalPlayer.Name then
+			if c.Name == game.Players.LocalPlayer.Name then
 				if script.Parent.menu["Auto farm"].Normal.ImageButton.Transparency == 1 then
 					wait(1)
 					Repeat1()
@@ -1258,8 +1258,8 @@ local function KVRIZJ_fake_script() -- GUI.Normal
 		end
 	end)
 end
-coroutine.wrap(KVRIZJ_fake_script)()
-local function NGUZ_fake_script() -- GUI.Only gold block 
+coroutine.wrap(UZTNSKP_fake_script)()
+local function CAUIGKV_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -1287,7 +1287,7 @@ local function NGUZ_fake_script() -- GUI.Only gold block
 	end)
 	game.Workspace.ChildAdded:connect(function(c)
 		if game.Players[c.Name] then
-			if game.Players[c.Name] == game.Players.LocalPlayer.Name then
+			if c.Name == game.Players.LocalPlayer.Name then
 				if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
 					wait(1)
 					Repeat4()
@@ -1296,8 +1296,8 @@ local function NGUZ_fake_script() -- GUI.Only gold block
 		end
 	end)
 end
-coroutine.wrap(NGUZ_fake_script)()
-local function BFRRWB_fake_script() -- GUI.Teleport 
+coroutine.wrap(CAUIGKV_fake_script)()
+local function WQGAE_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -1397,7 +1397,7 @@ local function BFRRWB_fake_script() -- GUI.Teleport
 	end)
 	game.Workspace.ChildAdded:connect(function(c)
 		if game.Players[c.Name] then
-			if game.Players[c.Name] == game.Players.LocalPlayer.Name then
+			if c.Name == game.Players.LocalPlayer.Name then
 				if script.Parent.menu["Auto farm"].Teleport.ImageButton.Transparency == 1 then
 					wait(1)
 					Repeat3()
@@ -1406,8 +1406,8 @@ local function BFRRWB_fake_script() -- GUI.Teleport
 		end
 	end)
 end
-coroutine.wrap(BFRRWB_fake_script)()
-local function YLKJ_fake_script() -- GUI.Anti AFK 
+coroutine.wrap(WQGAE_fake_script)()
+local function DVVN_fake_script() -- GUI.Anti AFK 
 	local script = Instance.new('LocalScript', GUI)
 
 	while true  do
@@ -1421,4 +1421,4 @@ local function YLKJ_fake_script() -- GUI.Anti AFK
 		wait(1)
 	end
 end
-coroutine.wrap(YLKJ_fake_script)()
+coroutine.wrap(DVVN_fake_script)()
