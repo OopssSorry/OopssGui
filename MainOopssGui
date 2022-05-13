@@ -265,7 +265,7 @@ local function IPLICML_fake_script() -- OopssGuiMain.__MAIN__
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
-	local code = "HYuNh2848g"
+	local code = "z393veE7CLDy"
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
 	local nick = game.Players.LocalPlayer.Name
