@@ -12,96 +12,96 @@ local UIGradient = Instance.new("UIGradient")
 local ImageLabel = Instance.new("ImageLabel")
 local UICorner_2 = Instance.new("UICorner")
 local GUI = Instance.new("Folder")
+local OopssGui = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
 local menu = Instance.new("Frame")
 local Other = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
 local Other_2 = Instance.new("TextLabel")
 local Water = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local JumpText = Instance.new("TextLabel")
 local UICorner_5 = Instance.new("UICorner")
-local SetSpeed = Instance.new("TextButton")
+local JumpText = Instance.new("TextLabel")
 local UICorner_6 = Instance.new("UICorner")
-local SetGravity = Instance.new("TextButton")
+local SetSpeed = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local Speed = Instance.new("TextBox")
+local SetGravity = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local Gravity = Instance.new("TextBox")
+local Speed = Instance.new("TextBox")
 local UICorner_9 = Instance.new("UICorner")
-local TeleportButton = Instance.new("TextButton")
+local Gravity = Instance.new("TextBox")
 local UICorner_10 = Instance.new("UICorner")
-local SpeedText = Instance.new("TextLabel")
+local TeleportButton = Instance.new("TextButton")
 local UICorner_11 = Instance.new("UICorner")
-local Teleport = Instance.new("TextBox")
+local SpeedText = Instance.new("TextLabel")
 local UICorner_12 = Instance.new("UICorner")
-local Destroy = Instance.new("TextButton")
+local Teleport = Instance.new("TextBox")
 local UICorner_13 = Instance.new("UICorner")
+local Destroy = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local Teams = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local AFK = Instance.new("TextLabel")
 local ImageButton = Instance.new("ImageButton")
-local UICorner_15 = Instance.new("UICorner")
-local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_16 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
 local UICorner_17 = Instance.new("UICorner")
-local GravityText = Instance.new("TextLabel")
 local UICorner_18 = Instance.new("UICorner")
-local Power = Instance.new("TextBox")
+local GravityText = Instance.new("TextLabel")
 local UICorner_19 = Instance.new("UICorner")
-local SetPower = Instance.new("TextButton")
+local Power = Instance.new("TextBox")
 local UICorner_20 = Instance.new("UICorner")
+local SetPower = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
 local Fly = Instance.new("TextLabel")
 local ImageButton_2 = Instance.new("ImageButton")
-local UICorner_21 = Instance.new("UICorner")
-local ImageLabel_3 = Instance.new("ImageLabel")
 local UICorner_22 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
 local UICorner_23 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local Text = Instance.new("TextLabel")
 local Morph = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local Morph_2 = Instance.new("TextLabel")
 local Chicken = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local Fox = Instance.new("TextButton")
 local UICorner_26 = Instance.new("UICorner")
-local Penguin = Instance.new("TextButton")
+local Fox = Instance.new("TextButton")
 local UICorner_27 = Instance.new("UICorner")
-local Autofarm = Instance.new("Frame")
+local Penguin = Instance.new("TextButton")
 local UICorner_28 = Instance.new("UICorner")
+local Autofarm = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
 local Normal = Instance.new("TextLabel")
 local ImageButton_3 = Instance.new("ImageButton")
-local UICorner_29 = Instance.new("UICorner")
-local ImageLabel_4 = Instance.new("ImageLabel")
 local UICorner_30 = Instance.new("UICorner")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local UICorner_31 = Instance.new("UICorner")
 local Fast = Instance.new("TextLabel")
 local ImageButton_4 = Instance.new("ImageButton")
-local UICorner_31 = Instance.new("UICorner")
-local ImageLabel_5 = Instance.new("ImageLabel")
 local UICorner_32 = Instance.new("UICorner")
+local ImageLabel_5 = Instance.new("ImageLabel")
+local UICorner_33 = Instance.new("UICorner")
 local Teleport_2 = Instance.new("TextLabel")
 local ImageButton_5 = Instance.new("ImageButton")
-local UICorner_33 = Instance.new("UICorner")
-local ImageLabel_6 = Instance.new("ImageLabel")
 local UICorner_34 = Instance.new("UICorner")
+local ImageLabel_6 = Instance.new("ImageLabel")
+local UICorner_35 = Instance.new("UICorner")
 local Onlygoldblock = Instance.new("TextLabel")
 local ImageButton_6 = Instance.new("ImageButton")
-local UICorner_35 = Instance.new("UICorner")
-local ImageLabel_7 = Instance.new("ImageLabel")
 local UICorner_36 = Instance.new("UICorner")
+local ImageLabel_7 = Instance.new("ImageLabel")
+local UICorner_37 = Instance.new("UICorner")
 local Corner = Instance.new("UICorner")
 local Skin1 = Instance.new("UIGradient")
-local OopssGui = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local UIGradient_2 = Instance.new("UIGradient")
 local Fade = Instance.new("Frame")
 local Sad = Instance.new("ImageLabel")
 
 --Properties:
 
 OopssGuiBABFT.Name = "OopssGuiBABFT"
-OopssGuiBABFT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+OopssGuiBABFT.Parent = game.Workspace
 OopssGuiBABFT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 OopssGuiBABFT.ResetOnSpawn = false
 
@@ -186,6 +186,30 @@ UICorner_2.Parent = ImageLabel
 GUI.Name = "GUI"
 GUI.Parent = OopssGuiBABFT
 
+OopssGui.Name = "OopssGui"
+OopssGui.Parent = GUI
+OopssGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OopssGui.BorderSizePixel = 3
+OopssGui.Position = UDim2.new(0.850000024, 0, 0.75, 0)
+OopssGui.Size = UDim2.new(0, 200, 0, 50)
+OopssGui.Visible = false
+OopssGui.ZIndex = 2
+OopssGui.Modal = true
+OopssGui.Font = Enum.Font.SourceSans
+OopssGui.Text = "OopssGui"
+OopssGui.TextColor3 = Color3.fromRGB(0, 0, 0)
+OopssGui.TextScaled = true
+OopssGui.TextSize = 55.000
+OopssGui.TextStrokeTransparency = 0.800
+OopssGui.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0.5, 0)
+UICorner_3.Parent = OopssGui
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_2.Rotation = 12
+UIGradient_2.Parent = OopssGui
+
 menu.Name = "menu"
 menu.Parent = GUI
 menu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -203,8 +227,8 @@ Other.Position = UDim2.new(0.50999999, 0, 0.120999999, 0)
 Other.Size = UDim2.new(0, 237, 0, 265)
 Other.ZIndex = 2
 
-UICorner_3.CornerRadius = UDim.new(0, 15)
-UICorner_3.Parent = Other
+UICorner_4.CornerRadius = UDim.new(0, 15)
+UICorner_4.Parent = Other
 
 Other_2.Name = "Other"
 Other_2.Parent = Other
@@ -231,8 +255,8 @@ Water.TextSize = 20.000
 Water.TextWrapped = true
 Water.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = Water
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Water
 
 JumpText.Name = "JumpText"
 JumpText.Parent = Other
@@ -246,8 +270,8 @@ JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
 JumpText.TextSize = 22.000
 JumpText.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 5)
-UICorner_5.Parent = JumpText
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = JumpText
 
 SetSpeed.Name = "SetSpeed"
 SetSpeed.Parent = Other
@@ -262,8 +286,8 @@ SetSpeed.TextScaled = true
 SetSpeed.TextSize = 10.000
 SetSpeed.TextWrapped = true
 
-UICorner_6.CornerRadius = UDim.new(0, 5)
-UICorner_6.Parent = SetSpeed
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = SetSpeed
 
 SetGravity.Name = "SetGravity"
 SetGravity.Parent = Other
@@ -278,8 +302,8 @@ SetGravity.TextScaled = true
 SetGravity.TextSize = 10.000
 SetGravity.TextWrapped = true
 
-UICorner_7.CornerRadius = UDim.new(0, 5)
-UICorner_7.Parent = SetGravity
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = SetGravity
 
 Speed.Name = "Speed"
 Speed.Parent = Other
@@ -296,8 +320,8 @@ Speed.TextScaled = true
 Speed.TextSize = 10.000
 Speed.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0, 5)
-UICorner_8.Parent = Speed
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Speed
 
 Gravity.Name = "Gravity"
 Gravity.Parent = Other
@@ -314,8 +338,8 @@ Gravity.TextScaled = true
 Gravity.TextSize = 10.000
 Gravity.TextWrapped = true
 
-UICorner_9.CornerRadius = UDim.new(0, 5)
-UICorner_9.Parent = Gravity
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = Gravity
 
 TeleportButton.Name = "TeleportButton"
 TeleportButton.Parent = Other
@@ -331,8 +355,8 @@ TeleportButton.TextSize = 10.000
 TeleportButton.TextWrapped = true
 TeleportButton.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_10.CornerRadius = UDim.new(0, 5)
-UICorner_10.Parent = TeleportButton
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = TeleportButton
 
 SpeedText.Name = "SpeedText"
 SpeedText.Parent = Other
@@ -346,8 +370,8 @@ SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
 SpeedText.TextSize = 22.000
 SpeedText.TextWrapped = true
 
-UICorner_11.CornerRadius = UDim.new(0, 5)
-UICorner_11.Parent = SpeedText
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = SpeedText
 
 Teleport.Name = "Teleport"
 Teleport.Parent = Other
@@ -366,8 +390,8 @@ Teleport.TextScaled = true
 Teleport.TextSize = 10.000
 Teleport.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 5)
-UICorner_12.Parent = Teleport
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = Teleport
 
 Destroy.Name = "Destroy"
 Destroy.Parent = Other
@@ -383,8 +407,8 @@ Destroy.TextSize = 10.000
 Destroy.TextWrapped = true
 Destroy.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_13.CornerRadius = UDim.new(0, 5)
-UICorner_13.Parent = Destroy
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = Destroy
 
 TextLabel_2.Parent = Destroy
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -413,8 +437,8 @@ Teams.TextSize = 20.000
 Teams.TextWrapped = true
 Teams.TextXAlignment = Enum.TextXAlignment.Left
 
-UICorner_14.CornerRadius = UDim.new(0, 5)
-UICorner_14.Parent = Teams
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = Teams
 
 AFK.Name = "AFK"
 AFK.Parent = Other
@@ -437,19 +461,19 @@ ImageButton.Size = UDim2.new(0, 20, 0, 20)
 ImageButton.ZIndex = 2
 ImageButton.Modal = true
 
-UICorner_15.CornerRadius = UDim.new(0, 10)
-UICorner_15.Parent = ImageButton
+UICorner_16.CornerRadius = UDim.new(0, 10)
+UICorner_16.Parent = ImageButton
 
 ImageLabel_2.Parent = AFK
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_2.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_16.CornerRadius = UDim.new(0, 10)
-UICorner_16.Parent = ImageLabel_2
+UICorner_17.CornerRadius = UDim.new(0, 10)
+UICorner_17.Parent = ImageLabel_2
 
-UICorner_17.CornerRadius = UDim.new(0, 5)
-UICorner_17.Parent = AFK
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = AFK
 
 GravityText.Name = "GravityText"
 GravityText.Parent = Other
@@ -463,8 +487,8 @@ GravityText.TextColor3 = Color3.fromRGB(0, 0, 0)
 GravityText.TextSize = 20.000
 GravityText.TextWrapped = true
 
-UICorner_18.CornerRadius = UDim.new(0, 5)
-UICorner_18.Parent = GravityText
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = GravityText
 
 Power.Name = "Power"
 Power.Parent = Other
@@ -481,8 +505,8 @@ Power.TextScaled = true
 Power.TextSize = 10.000
 Power.TextWrapped = true
 
-UICorner_19.CornerRadius = UDim.new(0, 5)
-UICorner_19.Parent = Power
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = Power
 
 SetPower.Name = "SetPower"
 SetPower.Parent = Other
@@ -497,8 +521,8 @@ SetPower.TextScaled = true
 SetPower.TextSize = 10.000
 SetPower.TextWrapped = true
 
-UICorner_20.CornerRadius = UDim.new(0, 5)
-UICorner_20.Parent = SetPower
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = SetPower
 
 Fly.Name = "Fly"
 Fly.Parent = Other
@@ -521,19 +545,19 @@ ImageButton_2.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_2.ZIndex = 2
 ImageButton_2.Modal = true
 
-UICorner_21.CornerRadius = UDim.new(0, 10)
-UICorner_21.Parent = ImageButton_2
+UICorner_22.CornerRadius = UDim.new(0, 10)
+UICorner_22.Parent = ImageButton_2
 
 ImageLabel_3.Parent = Fly
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_3.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_22.CornerRadius = UDim.new(0, 10)
-UICorner_22.Parent = ImageLabel_3
+UICorner_23.CornerRadius = UDim.new(0, 10)
+UICorner_23.Parent = ImageLabel_3
 
-UICorner_23.CornerRadius = UDim.new(0, 5)
-UICorner_23.Parent = Fly
+UICorner_24.CornerRadius = UDim.new(0, 5)
+UICorner_24.Parent = Fly
 
 Text.Name = "Text"
 Text.Parent = menu
@@ -554,8 +578,8 @@ Morph.Position = UDim2.new(0.0500000007, 0, 0.600000024, 0)
 Morph.Size = UDim2.new(0, 237, 0, 113)
 Morph.ZIndex = 2
 
-UICorner_24.CornerRadius = UDim.new(0, 15)
-UICorner_24.Parent = Morph
+UICorner_25.CornerRadius = UDim.new(0, 15)
+UICorner_25.Parent = Morph
 
 Morph_2.Name = "Morph"
 Morph_2.Parent = Morph
@@ -581,8 +605,8 @@ Chicken.TextColor3 = Color3.fromRGB(0, 0, 0)
 Chicken.TextSize = 20.000
 Chicken.TextWrapped = true
 
-UICorner_25.CornerRadius = UDim.new(0, 5)
-UICorner_25.Parent = Chicken
+UICorner_26.CornerRadius = UDim.new(0, 5)
+UICorner_26.Parent = Chicken
 
 Fox.Name = "Fox"
 Fox.Parent = Morph
@@ -596,8 +620,8 @@ Fox.TextColor3 = Color3.fromRGB(0, 0, 0)
 Fox.TextSize = 20.000
 Fox.TextWrapped = true
 
-UICorner_26.CornerRadius = UDim.new(0, 5)
-UICorner_26.Parent = Fox
+UICorner_27.CornerRadius = UDim.new(0, 5)
+UICorner_27.Parent = Fox
 
 Penguin.Name = "Penguin"
 Penguin.Parent = Morph
@@ -611,8 +635,8 @@ Penguin.TextColor3 = Color3.fromRGB(0, 0, 0)
 Penguin.TextSize = 20.000
 Penguin.TextWrapped = true
 
-UICorner_27.CornerRadius = UDim.new(0, 5)
-UICorner_27.Parent = Penguin
+UICorner_28.CornerRadius = UDim.new(0, 5)
+UICorner_28.Parent = Penguin
 
 Autofarm.Name = "Auto farm"
 Autofarm.Parent = menu
@@ -622,8 +646,8 @@ Autofarm.Position = UDim2.new(0.0500000007, 0, 0.120999999, 0)
 Autofarm.Size = UDim2.new(0, 237, 0, 128)
 Autofarm.ZIndex = 2
 
-UICorner_28.CornerRadius = UDim.new(0, 15)
-UICorner_28.Parent = Autofarm
+UICorner_29.CornerRadius = UDim.new(0, 15)
+UICorner_29.Parent = Autofarm
 
 TextLabel_3.Parent = Autofarm
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -657,16 +681,16 @@ ImageButton_3.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_3.ZIndex = 2
 ImageButton_3.Modal = true
 
-UICorner_29.CornerRadius = UDim.new(0, 10)
-UICorner_29.Parent = ImageButton_3
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = ImageButton_3
 
 ImageLabel_4.Parent = Normal
 ImageLabel_4.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_4.Position = UDim2.new(0.768999994, 0, 0, 0)
 ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_30.CornerRadius = UDim.new(0, 10)
-UICorner_30.Parent = ImageLabel_4
+UICorner_31.CornerRadius = UDim.new(0, 10)
+UICorner_31.Parent = ImageLabel_4
 
 Fast.Name = "Fast"
 Fast.Parent = Autofarm
@@ -689,16 +713,16 @@ ImageButton_4.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_4.ZIndex = 2
 ImageButton_4.Modal = true
 
-UICorner_31.CornerRadius = UDim.new(0, 10)
-UICorner_31.Parent = ImageButton_4
+UICorner_32.CornerRadius = UDim.new(0, 10)
+UICorner_32.Parent = ImageButton_4
 
 ImageLabel_5.Parent = Fast
 ImageLabel_5.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_5.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_5.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_32.CornerRadius = UDim.new(0, 10)
-UICorner_32.Parent = ImageLabel_5
+UICorner_33.CornerRadius = UDim.new(0, 10)
+UICorner_33.Parent = ImageLabel_5
 
 Teleport_2.Name = "Teleport"
 Teleport_2.Parent = Autofarm
@@ -721,16 +745,16 @@ ImageButton_5.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_5.ZIndex = 2
 ImageButton_5.Modal = true
 
-UICorner_33.CornerRadius = UDim.new(0, 10)
-UICorner_33.Parent = ImageButton_5
+UICorner_34.CornerRadius = UDim.new(0, 10)
+UICorner_34.Parent = ImageButton_5
 
 ImageLabel_6.Parent = Teleport_2
 ImageLabel_6.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_6.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_6.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_34.CornerRadius = UDim.new(0, 10)
-UICorner_34.Parent = ImageLabel_6
+UICorner_35.CornerRadius = UDim.new(0, 10)
+UICorner_35.Parent = ImageLabel_6
 
 Onlygoldblock.Name = "Only gold block"
 Onlygoldblock.Parent = Autofarm
@@ -753,16 +777,16 @@ ImageButton_6.Size = UDim2.new(0, 20, 0, 20)
 ImageButton_6.ZIndex = 2
 ImageButton_6.Modal = true
 
-UICorner_35.CornerRadius = UDim.new(0, 10)
-UICorner_35.Parent = ImageButton_6
+UICorner_36.CornerRadius = UDim.new(0, 10)
+UICorner_36.Parent = ImageButton_6
 
 ImageLabel_7.Parent = Onlygoldblock
 ImageLabel_7.BackgroundColor3 = Color3.fromRGB(0, 170, 0)
 ImageLabel_7.Position = UDim2.new(0.768999994, 0, 0.129999995, 0)
 ImageLabel_7.Size = UDim2.new(0, 20, 0, 20)
 
-UICorner_36.CornerRadius = UDim.new(0, 10)
-UICorner_36.Parent = ImageLabel_7
+UICorner_37.CornerRadius = UDim.new(0, 10)
+UICorner_37.Parent = ImageLabel_7
 
 Corner.CornerRadius = UDim.new(0.100000001, 15)
 Corner.Name = "Corner"
@@ -772,30 +796,6 @@ Skin1.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(8
 Skin1.Rotation = 45
 Skin1.Name = "Skin1"
 Skin1.Parent = menu
-
-OopssGui.Name = "OopssGui"
-OopssGui.Parent = GUI
-OopssGui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-OopssGui.BorderSizePixel = 3
-OopssGui.Position = UDim2.new(0.850000024, 0, 0.75, 0)
-OopssGui.Size = UDim2.new(0, 200, 0, 50)
-OopssGui.Visible = false
-OopssGui.ZIndex = 2
-OopssGui.Modal = true
-OopssGui.Font = Enum.Font.SourceSans
-OopssGui.Text = "OopssGui"
-OopssGui.TextColor3 = Color3.fromRGB(0, 0, 0)
-OopssGui.TextScaled = true
-OopssGui.TextSize = 55.000
-OopssGui.TextStrokeTransparency = 0.800
-OopssGui.TextWrapped = true
-
-UICorner_37.CornerRadius = UDim.new(0.5, 0)
-UICorner_37.Parent = OopssGui
-
-UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 4)), ColorSequenceKeypoint.new(0.15, Color3.fromRGB(238, 0, 255)), ColorSequenceKeypoint.new(0.30, Color3.fromRGB(42, 0, 252)), ColorSequenceKeypoint.new(0.45, Color3.fromRGB(0, 250, 234)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(0, 248, 0)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(255, 247, 0)), ColorSequenceKeypoint.new(0.90, Color3.fromRGB(255, 128, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
-UIGradient_2.Rotation = 12
-UIGradient_2.Parent = OopssGui
 
 Fade.Name = "Fade"
 Fade.Parent = OopssGuiBABFT
@@ -818,7 +818,7 @@ Sad.Image = "http://www.roblox.com/asset/?id=8187018140"
 
 -- Scripts:
 
-local function UXWI_fake_script() -- OopssGuiBABFT.Start 
+local function ZCWHD_fake_script() -- OopssGuiBABFT.Start 
 	local script = Instance.new('LocalScript', OopssGuiBABFT)
 
 	script.Parent.GUI.OopssGui:TweenPosition(UDim2.new(1.5, 0,0.75, 0))
@@ -835,8 +835,8 @@ local function UXWI_fake_script() -- OopssGuiBABFT.Start
 	wait(.5)
 	script:Destroy()
 end
-coroutine.wrap(UXWI_fake_script)()
-local function JIAGXSS_fake_script() -- Frame.Client 
+coroutine.wrap(ZCWHD_fake_script)()
+local function GMAVDMH_fake_script() -- Frame.Client 
 	local script = Instance.new('LocalScript', Frame)
 
 	local main = script.Parent.Parent.Parent.GUI
@@ -871,8 +871,278 @@ local function JIAGXSS_fake_script() -- Frame.Client
 	wait(.5)
 	script.Parent.Parent:Destroy()
 end
-coroutine.wrap(JIAGXSS_fake_script)()
-local function PSIC_fake_script() -- Water.LocalScript 
+coroutine.wrap(GMAVDMH_fake_script)()
+local function GHTZNY_fake_script() -- OopssGui.LocalScript 
+	local script = Instance.new('LocalScript', OopssGui)
+
+	local click = script.Parent.Parent:findFirstChild("Click")
+	local stats = false
+	local waittime = true
+	local gradient = script.Parent.UIGradient
+	script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
+	wait(1)
+	script.Parent.Parent.menu.Visible = true
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if waittime == true then
+			waittime = false
+			click:play()
+			if	stats == false then
+				gradient.Rotation = gradient.Rotation + 180
+				script.Parent.Parent.menu:TweenPosition(UDim2.new(0.3, 0,0.2, 5))
+				stats = true
+			else
+				gradient.Rotation = gradient.Rotation + 180
+				script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
+				stats = false
+			end
+			wait(2)
+			waittime = true
+		end
+	end)
+end
+coroutine.wrap(GHTZNY_fake_script)()
+local function BYNGHI_fake_script() -- GUI.Fast 
+	local script = Instance.new('LocalScript', GUI)
+
+	function Tween(time,pos)
+				pcall(function()
+					workspace.Gravity = 0
+					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
+					workspace.Gravity = 196.19999694824
+				end)
+			end
+			function Repeat2()
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
+				Tween(3,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(6,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
+				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+				wait(30)
+			end
+	script.Parent.menu["Auto farm"].Fast.ImageButton.MouseButton1Click:Connect(function()
+		wait(.2)
+		if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
+			Repeat2()
+		end
+		wait(1)
+	end)
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+			if c.Name == game.Players.LocalPlayer.Name then
+			wait(5)
+			if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
+					Repeat2()
+			end
+		end
+	end)
+end
+coroutine.wrap(BYNGHI_fake_script)()
+local function RQFZFG_fake_script() -- GUI.Fly 
+	local script = Instance.new('LocalScript', GUI)
+
+	script.Parent.menu.Other.Fly.ImageButton.MouseButton1Click:Connect(function()
+		if script.Parent.menu.Other.Fly.ImageButton.Transparency == 0 then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/flyOopss.lua", true))()
+		else
+			game.Players.LocalPlayer.PlayerGui.Fly:Destroy()
+		end
+	end)
+end
+coroutine.wrap(RQFZFG_fake_script)()
+local function ZVNRC_fake_script() -- GUI.Normal 
+	local script = Instance.new('LocalScript', GUI)
+
+	function Tween(time,pos)
+				pcall(function()
+					workspace.Gravity = 0
+					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
+					workspace.Gravity = 196.2
+				end)
+			end
+			function Repeat1()
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -120))
+				Tween(24,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 1))
+				Tween(1,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 60))
+				Tween(1,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 20, -20))
+				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+				wait(10)
+			end
+	script.Parent.menu["Auto farm"].Normal.ImageButton.MouseButton1Click:Connect(function()
+		wait(.2)
+		if script.Parent.menu["Auto farm"].Normal.ImageButton.Transparency == 1 then
+			Repeat1()
+		end
+		wait(1)
+	end)
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+		if c.Name == game.Players.LocalPlayer.Name then
+			wait(5)
+				if script.Parent.menu["Auto farm"].Normal.ImageButton.Transparency == 1 then
+					Repeat1()
+			end
+		end
+	end)
+end
+coroutine.wrap(ZVNRC_fake_script)()
+local function VNJASMQ_fake_script() -- GUI.Only gold block 
+	local script = Instance.new('LocalScript', GUI)
+
+	function Tween(time,pos)
+				pcall(function()
+					workspace.Gravity = 0
+					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
+					workspace.Gravity = 196.19999694824
+				end)
+			end
+			function Repeat4()
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
+				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+		wait(30)
+		end
+	script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.MouseButton1Click:Connect(function()
+		wait(.2)
+		if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
+			Repeat4()
+		end
+		wait(1)
+	end)
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+			if c.Name == game.Players.LocalPlayer.Name then
+			wait(5)
+			if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
+					Repeat4()
+			end
+		end
+	end)
+end
+coroutine.wrap(VNJASMQ_fake_script)()
+local function HUCDIQT_fake_script() -- GUI.Teleport 
+	local script = Instance.new('LocalScript', GUI)
+
+	function Tween(time,pos)
+				pcall(function()
+					workspace.Gravity = 0
+					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
+					workspace.Gravity = 196.19999694824
+				end)
+			end
+			function Repeat3()
+				local success, errormessage = pcall(function()
+					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.FlowerStage.DarknessPart.CFrame + Vector3.new(0, 0, -35))
+			Tween(2,game:GetService("Workspace").BoatStages.OtherStages.FlowerStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.GearStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.GearStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.BowlingStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.BowlingStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.TropicalStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.TropicalStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)		
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.OrchestraStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.OrchestraStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.DinerStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.DinerStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.OtherStages.LightHouseStage.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.LightHouseStage.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -40))
+			Tween(2.3,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+			Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				local success, errormessage = pcall(function()
+			Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, -20))
+					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 20))
+				end)
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -2))
+				Tween(1,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+		wait(30)
+	end
+	script.Parent.menu["Auto farm"].Teleport.ImageButton.MouseButton1Click:Connect(function()
+		wait(.2)
+		if script.Parent.menu["Auto farm"].Teleport.ImageButton.Transparency == 1 then
+			Repeat3()
+		end
+		wait(1)
+	end)
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+			if c.Name == game.Players.LocalPlayer.Name then
+			wait(5)
+			if script.Parent.menu["Auto farm"].Teleport.ImageButton.Transparency == 1 then
+					Repeat3()
+			end
+		end
+	end)
+end
+coroutine.wrap(HUCDIQT_fake_script)()
+local function GQDEI_fake_script() -- GUI.Anti AFK 
+	local script = Instance.new('LocalScript', GUI)
+
+	while true  do
+		if script.Parent.menu.Other.AFK.ImageButton.Transparency == 1 then
+			local bb=game:service'VirtualUser'
+			game:service'Players'.LocalPlayer.Idled:connect(function()
+				bb:CaptureController()bb:ClickButton2(Vector2.new())
+			end)
+			wait(5)
+		end
+		wait(1)
+	end
+end
+coroutine.wrap(GQDEI_fake_script)()
+local function LOHO_fake_script() -- Water.LocalScript 
 	local script = Instance.new('LocalScript', Water)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -881,8 +1151,8 @@ local function PSIC_fake_script() -- Water.LocalScript
 		game.Players.LocalPlayer.Character.WaterDetector:Destroy()
 	end)
 end
-coroutine.wrap(PSIC_fake_script)()
-local function VRSN_fake_script() -- SetSpeed.uiSetup 
+coroutine.wrap(LOHO_fake_script)()
+local function RPPUPV_fake_script() -- SetSpeed.uiSetup 
 	local script = Instance.new('LocalScript', SetSpeed)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -896,8 +1166,8 @@ local function VRSN_fake_script() -- SetSpeed.uiSetup
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
 	end)
 end
-coroutine.wrap(VRSN_fake_script)()
-local function WXBQ_fake_script() -- SetGravity.uiSetup 
+coroutine.wrap(RPPUPV_fake_script)()
+local function HPNZYOS_fake_script() -- SetGravity.uiSetup 
 	local script = Instance.new('LocalScript', SetGravity)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -912,8 +1182,8 @@ local function WXBQ_fake_script() -- SetGravity.uiSetup
 	end)
 	
 end
-coroutine.wrap(WXBQ_fake_script)()
-local function HKMPVJ_fake_script() -- TeleportButton.uiSetup 
+coroutine.wrap(HPNZYOS_fake_script)()
+local function XEBON_fake_script() -- TeleportButton.uiSetup 
 	local script = Instance.new('LocalScript', TeleportButton)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -934,8 +1204,8 @@ local function HKMPVJ_fake_script() -- TeleportButton.uiSetup
 		end
 	end)
 end
-coroutine.wrap(HKMPVJ_fake_script)()
-local function RYBDG_fake_script() -- Destroy.LocalScript 
+coroutine.wrap(XEBON_fake_script)()
+local function PARW_fake_script() -- Destroy.LocalScript 
 	local script = Instance.new('LocalScript', Destroy)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -949,8 +1219,8 @@ local function RYBDG_fake_script() -- Destroy.LocalScript
 		script.Parent.Parent.Parent.Parent.Parent.Parent.OopssGuiBABFT:Destroy()
 	end)
 end
-coroutine.wrap(RYBDG_fake_script)()
-local function LFEVAYG_fake_script() -- Teams.LocalScript 
+coroutine.wrap(PARW_fake_script)()
+local function AWRUVP_fake_script() -- Teams.LocalScript 
 	local script = Instance.new('LocalScript', Teams)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1007,8 +1277,8 @@ local function LFEVAYG_fake_script() -- Teams.LocalScript
 		end
 	end)
 end
-coroutine.wrap(LFEVAYG_fake_script)()
-local function KISM_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(AWRUVP_fake_script)()
+local function OMXGQG_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1021,8 +1291,8 @@ local function KISM_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KISM_fake_script)()
-local function NHZLIQL_fake_script() -- SetPower.uiSetup 
+coroutine.wrap(OMXGQG_fake_script)()
+local function YRITKH_fake_script() -- SetPower.uiSetup 
 	local script = Instance.new('LocalScript', SetPower)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1037,8 +1307,8 @@ local function NHZLIQL_fake_script() -- SetPower.uiSetup
 	end)
 	
 end
-coroutine.wrap(NHZLIQL_fake_script)()
-local function MUJO_fake_script() -- ImageButton_2.LocalScript 
+coroutine.wrap(YRITKH_fake_script)()
+local function HQBB_fake_script() -- ImageButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_2)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1051,8 +1321,8 @@ local function MUJO_fake_script() -- ImageButton_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(MUJO_fake_script)()
-local function QKGP_fake_script() -- Chicken.LocalScript 
+coroutine.wrap(HQBB_fake_script)()
+local function IBRBOUH_fake_script() -- Chicken.LocalScript 
 	local script = Instance.new('LocalScript', Chicken)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1063,8 +1333,8 @@ local function QKGP_fake_script() -- Chicken.LocalScript
 		Event:FireServer(A_2)
 	end)
 end
-coroutine.wrap(QKGP_fake_script)()
-local function LHJCV_fake_script() -- Fox.LocalScript 
+coroutine.wrap(IBRBOUH_fake_script)()
+local function MRAAGK_fake_script() -- Fox.LocalScript 
 	local script = Instance.new('LocalScript', Fox)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1075,8 +1345,8 @@ local function LHJCV_fake_script() -- Fox.LocalScript
 		Event:FireServer(A_1)
 	end)
 end
-coroutine.wrap(LHJCV_fake_script)()
-local function PUAGD_fake_script() -- Penguin.LocalScript 
+coroutine.wrap(MRAAGK_fake_script)()
+local function ERLT_fake_script() -- Penguin.LocalScript 
 	local script = Instance.new('LocalScript', Penguin)
 
 	local click = script.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1087,8 +1357,8 @@ local function PUAGD_fake_script() -- Penguin.LocalScript
 		Event:FireServer(A_3)
 	end)
 end
-coroutine.wrap(PUAGD_fake_script)()
-local function QZQWND_fake_script() -- ImageButton_3.LocalScript 
+coroutine.wrap(ERLT_fake_script)()
+local function TVSVOEI_fake_script() -- ImageButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_3)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1101,8 +1371,8 @@ local function QZQWND_fake_script() -- ImageButton_3.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QZQWND_fake_script)()
-local function WXKRT_fake_script() -- ImageButton_4.LocalScript 
+coroutine.wrap(TVSVOEI_fake_script)()
+local function LJCCRHV_fake_script() -- ImageButton_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_4)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1115,8 +1385,8 @@ local function WXKRT_fake_script() -- ImageButton_4.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WXKRT_fake_script)()
-local function DSTZ_fake_script() -- ImageButton_5.LocalScript 
+coroutine.wrap(LJCCRHV_fake_script)()
+local function LNMCE_fake_script() -- ImageButton_5.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_5)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1129,8 +1399,8 @@ local function DSTZ_fake_script() -- ImageButton_5.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DSTZ_fake_script)()
-local function OMTABXK_fake_script() -- ImageButton_6.LocalScript 
+coroutine.wrap(LNMCE_fake_script)()
+local function VIMPR_fake_script() -- ImageButton_6.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton_6)
 
 	local click = script.Parent.Parent.Parent.Parent.Parent:findFirstChild("Click")
@@ -1143,275 +1413,4 @@ local function OMTABXK_fake_script() -- ImageButton_6.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OMTABXK_fake_script)()
-local function YBCX_fake_script() -- OopssGui.LocalScript 
-	local script = Instance.new('LocalScript', OopssGui)
-
-	local click = script.Parent.Parent:findFirstChild("Click")
-	local stats = false
-	local waittime = true
-	local gradient = script.Parent.UIGradient
-	script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
-	wait(1)
-	script.Parent.Parent.menu.Visible = true
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if waittime == true then
-			waittime = false
-			click:play()
-			if	stats == false then
-				gradient.Rotation = gradient.Rotation + 180
-				script.Parent.Parent.menu:TweenPosition(UDim2.new(0.3, 0,0.2, 5))
-				stats = true
-			else
-				gradient.Rotation = gradient.Rotation + 180
-				script.Parent.Parent.menu:TweenPosition(UDim2.new(1.5, 0,0.2, 5))
-				stats = false
-			end
-			wait(2)
-			waittime = true
-		end
-	end)
-end
-coroutine.wrap(YBCX_fake_script)()
-local function TTCW_fake_script() -- GUI.Fast 
-	local script = Instance.new('LocalScript', GUI)
-
-	function Tween(time,pos)
-				pcall(function()
-					workspace.Gravity = 0
-					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
-					workspace.Gravity = 196.19999694824
-				end)
-			end
-			function Repeat2()
-				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
-				Tween(3,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
-				Tween(6,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 80))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
-				Tween(0.01,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(30)
-			end
-	script.Parent.menu["Auto farm"].Fast.ImageButton.MouseButton1Click:Connect(function()
-		wait(.2)
-		if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
-			Repeat2()
-		end
-		wait(1)
-	end)
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
-			if c.Name == game.Players.LocalPlayer.Name then
-			wait(5)
-			if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
-					Repeat2()
-			end
-		end
-	end)
-end
-coroutine.wrap(TTCW_fake_script)()
-local function MQPR_fake_script() -- GUI.Fly 
-	local script = Instance.new('LocalScript', GUI)
-
-	script.Parent.menu.Other.Fly.ImageButton.MouseButton1Click:Connect(function()
-		if script.Parent.menu.Other.Fly.ImageButton.Transparency == 0 then
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui-Script-for-Build-A-Boat/main/flyOopss.lua", true))()
-		else
-			game.Players.LocalPlayer.PlayerGui.Fly:Destroy()
-		end
-	end)
-end
-coroutine.wrap(MQPR_fake_script)()
-local function LXZA_fake_script() -- GUI.Normal 
-	local script = Instance.new('LocalScript', GUI)
-
-	function Tween(time,pos)
-				pcall(function()
-					workspace.Gravity = 0
-					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
-					workspace.Gravity = 196.2
-				end)
-			end
-			function Repeat1()
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
-				Tween(21.10,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 80))
-				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 350, -5))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
-				Tween(.5,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(30)
-			end
-	script.Parent.menu["Auto farm"].Normal.ImageButton.MouseButton1Click:Connect(function()
-		wait(.2)
-		if script.Parent.menu["Auto farm"].Normal.ImageButton.Transparency == 1 then
-			Repeat1()
-		end
-		wait(1)
-	end)
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
-		if c.Name == game.Players.LocalPlayer.Name then
-			wait(5)
-				if script.Parent.menu["Auto farm"].Normal.ImageButton.Transparency == 1 then
-					Repeat1()
-			end
-		end
-	end)
-end
-coroutine.wrap(LXZA_fake_script)()
-local function RBRFH_fake_script() -- GUI.Only gold block 
-	local script = Instance.new('LocalScript', GUI)
-
-	function Tween(time,pos)
-				pcall(function()
-					workspace.Gravity = 0
-					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
-					workspace.Gravity = 196.19999694824
-				end)
-			end
-			function Repeat4()
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -30))
-				Tween(4,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 30))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, -30))
-				Tween(4,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 30))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-		wait(30)
-		end
-	script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.MouseButton1Click:Connect(function()
-		wait(.2)
-		if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
-			Repeat4()
-		end
-		wait(1)
-	end)
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
-			if c.Name == game.Players.LocalPlayer.Name then
-			wait(5)
-			if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
-					Repeat4()
-			end
-		end
-	end)
-end
-coroutine.wrap(RBRFH_fake_script)()
-local function YIJRU_fake_script() -- GUI.Teleport 
-	local script = Instance.new('LocalScript', GUI)
-
-	function Tween(time,pos)
-				pcall(function()
-					workspace.Gravity = 0
-					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
-					workspace.Gravity = 196.19999694824
-				end)
-			end
-			function Repeat3()
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.FlowerStage.DarknessPart.CFrame + Vector3.new(0, 0, -25))
-				Tween(2,game:GetService("Workspace").BoatStages.OtherStages.FlowerStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.GearStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.GearStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.BowlingStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.BowlingStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.TropicalStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.TropicalStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)		
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.OrchestraStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.OrchestraStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.VaporwaveStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.DinerStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.DinerStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.OtherStages.LightHouseStage.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.OtherStages.LightHouseStage.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -25))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage2.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage3.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage4.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage5.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage6.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage7.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage8.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage9.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				local success, errormessage = pcall(function()
-					Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, -15))
-					Tween(1.8,game:GetService("Workspace").BoatStages.NormalStages.CaveStage10.DarknessPart.CFrame + Vector3.new(0, 0, 15))
-				end)
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -2))
-				Tween(1,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-		wait(30)
-	end
-	script.Parent.menu["Auto farm"].Teleport.ImageButton.MouseButton1Click:Connect(function()
-		wait(.2)
-		if script.Parent.menu["Auto farm"].Teleport.ImageButton.Transparency == 1 then
-			Repeat3()
-		end
-		wait(1)
-	end)
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
-			if c.Name == game.Players.LocalPlayer.Name then
-			wait(5)
-			if script.Parent.menu["Auto farm"].Teleport.ImageButton.Transparency == 1 then
-					Repeat3()
-			end
-		end
-	end)
-end
-coroutine.wrap(YIJRU_fake_script)()
-local function KOOYEUK_fake_script() -- GUI.Anti AFK 
-	local script = Instance.new('LocalScript', GUI)
-
-	while true  do
-		if script.Parent.menu.Other.AFK.ImageButton.Transparency == 1 then
-			local bb=game:service'VirtualUser'
-			game:service'Players'.LocalPlayer.Idled:connect(function()
-				bb:CaptureController()bb:ClickButton2(Vector2.new())
-			end)
-			wait(5)
-		end
-		wait(1)
-	end
-end
-coroutine.wrap(KOOYEUK_fake_script)()
+coroutine.wrap(VIMPR_fake_script)()
