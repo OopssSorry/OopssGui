@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local OopssGuiBABFT = Instance.new("ScreenGui")
 local Sad = Instance.new("ImageLabel")
 local GUI = Instance.new("Folder")
@@ -24,7 +29,7 @@ GUI.Parent = OopssGuiBABFT
 
 -- Scripts:
 
-local function TFUJ_fake_script() -- GUI.Fast 
+local function DJIZ_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -34,30 +39,31 @@ local function TFUJ_fake_script() -- GUI.Fast
 					workspace.Gravity = 196.19999694824
 				end)
 			end
-			function Repeat2()
+			function Repeat4()
 				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
 				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
 				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-				wait(10)
-			end
-	script.Parent.menu["Auto farm"].Fast.ImageButton.MouseButton1Click:Connect(function()
+		wait(30)
+		end
+	script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.MouseButton1Click:Connect(function()
 		wait(.2)
-		if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
-			Repeat2()
+		if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
+			Repeat4()
 		end
 		wait(1)
 	end)
 	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
 			if c.Name == game.Players.LocalPlayer.Name then
-			wait(2)
-			if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
-					Repeat2()
+			wait(5)
+			if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
+					Repeat4()
 			end
 		end
 	end)
 end
-coroutine.wrap(TFUJ_fake_script)()
-local function BZBYDSC_fake_script() -- GUI.Fly 
+coroutine.wrap(DJIZ_fake_script)()
+local function URXYAO_fake_script() -- GUI.Fly 
 	local script = Instance.new('LocalScript', GUI)
 
 	
@@ -148,8 +154,80 @@ local function BZBYDSC_fake_script() -- GUI.Fly
 			end
 		end)
 end
-coroutine.wrap(BZBYDSC_fake_script)()
-local function UMJJR_fake_script() -- GUI.Normal 
+coroutine.wrap(URXYAO_fake_script)()
+local function TRVECOT_fake_script() -- GUI.Fast 
+	local script = Instance.new('LocalScript', GUI)
+
+	function Tween(time,pos)
+				pcall(function()
+					workspace.Gravity = 0
+					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
+					workspace.Gravity = 196.19999694824
+				end)
+			end
+			function Repeat2()
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
+				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
+				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
+				wait(10)
+			end
+	script.Parent.menu["Auto farm"].Fast.ImageButton.MouseButton1Click:Connect(function()
+		wait(.2)
+		if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
+			Repeat2()
+		end
+		wait(1)
+	end)
+	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
+			if c.Name == game.Players.LocalPlayer.Name then
+			wait(2)
+			if script.Parent.menu["Auto farm"].Fast.ImageButton.Transparency == 1 then
+					Repeat2()
+			end
+		end
+	end)
+end
+coroutine.wrap(TRVECOT_fake_script)()
+local function NVUAWGG_fake_script() -- GUI.Inf Jump 
+	local script = Instance.new('LocalScript', GUI)
+
+	local plr = game:GetService('Players').LocalPlayer
+	local m = plr:GetMouse()
+		m.KeyDown:connect(function(k)
+			if infinjump == true then
+				if k:byte() == 32 then
+					local humanoid = game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
+					humanoid:ChangeState('Jumping')
+					wait()
+					humanoid:ChangeState('Seated')
+				end
+			end
+		end)
+	script.Parent.menu.Other.InfJ.ImageButton.MouseButton1Click:Connect(function()
+	if script.Parent.menu.Other.InfJ.ImageButton.Transparency == 0 then
+			infinjump = true
+		else
+			infinjump = false
+		end
+	end)
+end
+coroutine.wrap(NVUAWGG_fake_script)()
+local function BLQXG_fake_script() -- GUI.Anti AFK 
+	local script = Instance.new('LocalScript', GUI)
+
+	while true  do
+		if script.Parent.menu.Other.AFK.ImageButton.Transparency == 1 then
+			local bb=game:service'VirtualUser'
+			game:service'Players'.LocalPlayer.Idled:connect(function()
+				bb:CaptureController()bb:ClickButton2(Vector2.new())
+			end)
+			wait(5)
+		end
+		wait(1)
+	end
+end
+coroutine.wrap(BLQXG_fake_script)()
+local function JUSSOVP_fake_script() -- GUI.Normal 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -184,42 +262,8 @@ local function UMJJR_fake_script() -- GUI.Normal
 		end
 	end)
 end
-coroutine.wrap(UMJJR_fake_script)()
-local function VUZDMH_fake_script() -- GUI.Only gold block 
-	local script = Instance.new('LocalScript', GUI)
-
-	function Tween(time,pos)
-				pcall(function()
-					workspace.Gravity = 0
-					game:GetService("TweenService"):Create(game.Players.LocalPlayer.Character.HumanoidRootPart, TweenInfo.new(time, Enum.EasingStyle.Linear), {CFrame = pos}):Play() wait(time)
-					workspace.Gravity = 196.19999694824
-				end)
-			end
-			function Repeat4()
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, -80))
-				Tween(5,game:GetService("Workspace").BoatStages.NormalStages.CaveStage1.DarknessPart.CFrame + Vector3.new(0, 0, 80))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -15))
-				Tween(0,game:GetService("Workspace").BoatStages.NormalStages.TheEnd.GoldenChest.Trigger.CFrame + Vector3.new(0, 1, -5))
-		wait(30)
-		end
-	script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.MouseButton1Click:Connect(function()
-		wait(.2)
-		if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
-			Repeat4()
-		end
-		wait(1)
-	end)
-	game.Players.LocalPlayer.CharacterAdded:Connect(function(c)
-			if c.Name == game.Players.LocalPlayer.Name then
-			wait(5)
-			if script.Parent.menu["Auto farm"]["Only gold block"].ImageButton.Transparency == 1 then
-					Repeat4()
-			end
-		end
-	end)
-end
-coroutine.wrap(VUZDMH_fake_script)()
-local function IHYF_fake_script() -- GUI.Teleport 
+coroutine.wrap(JUSSOVP_fake_script)()
+local function IXXDM_fake_script() -- GUI.Teleport 
 	local script = Instance.new('LocalScript', GUI)
 
 	function Tween(time,pos)
@@ -326,47 +370,18 @@ local function IHYF_fake_script() -- GUI.Teleport
 		end
 	end)
 end
-coroutine.wrap(IHYF_fake_script)()
-local function MKLM_fake_script() -- GUI.Anti AFK 
+coroutine.wrap(IXXDM_fake_script)()
+local function SWKB_fake_script() -- GUI.FPSScript 
 	local script = Instance.new('LocalScript', GUI)
 
-	while true  do
-		if script.Parent.menu.Other.AFK.ImageButton.Transparency == 1 then
-			local bb=game:service'VirtualUser'
-			game:service'Players'.LocalPlayer.Idled:connect(function()
-				bb:CaptureController()bb:ClickButton2(Vector2.new())
-			end)
-			wait(5)
-		end
-		wait(1)
+	local FPSLabel = script.Parent["Mini frame"]:WaitForChild('FPSLabel')
+	while wait(1) do
+		local FPS = game:GetService("Workspace"):GetRealPhysicsFPS()
+		FPSLabel.Text = 'FPS: '..math.floor(FPS)
 	end
 end
-coroutine.wrap(MKLM_fake_script)()
-local function NYFGW_fake_script() -- GUI.Inf Jump 
-	local script = Instance.new('LocalScript', GUI)
-
-	local plr = game:GetService('Players').LocalPlayer
-	local m = plr:GetMouse()
-		m.KeyDown:connect(function(k)
-			if infinjump == true then
-				if k:byte() == 32 then
-					local humanoid = game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass('Humanoid')
-					humanoid:ChangeState('Jumping')
-					wait()
-					humanoid:ChangeState('Seated')
-				end
-			end
-		end)
-	script.Parent.menu.Other.InfJ.ImageButton.MouseButton1Click:Connect(function()
-	if script.Parent.menu.Other.InfJ.ImageButton.Transparency == 0 then
-			infinjump = true
-		else
-			infinjump = false
-		end
-	end)
-end
-coroutine.wrap(NYFGW_fake_script)()
-local function LMBP_fake_script() -- GUI.Window 
+coroutine.wrap(SWKB_fake_script)()
+local function BKWWB_fake_script() -- GUI.Window 
 	local script = Instance.new('LocalScript', GUI)
 
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiMenu.lua", true))()
@@ -425,8 +440,8 @@ local function LMBP_fake_script() -- GUI.Window
 	MoveCheck.MouseMoved:connect(Move) -- won't work if you didn't have this
 	MoveCheck.MouseButton1Up:connect(Up)
 end
-coroutine.wrap(LMBP_fake_script)()
-local function EWBM_fake_script() -- GUI.Noclip 
+coroutine.wrap(BKWWB_fake_script)()
+local function UBXDKX_fake_script() -- GUI.Noclip 
 	local script = Instance.new('LocalScript', GUI)
 
 	noclip = false
@@ -446,17 +461,7 @@ local function EWBM_fake_script() -- GUI.Noclip
 		end
 	end)
 end
-coroutine.wrap(EWBM_fake_script)()
-local function XMYZQQ_fake_script() -- GUI.FPSScript 
-	local script = Instance.new('LocalScript', GUI)
-
-	local FPSLabel = script.Parent["Mini frame"]:WaitForChild('FPSLabel')
-	while wait(1) do
-		local FPS = game:GetService("Workspace"):GetRealPhysicsFPS()
-		FPSLabel.Text = 'FPS: '..math.floor(FPS)
-	end
-end
-coroutine.wrap(XMYZQQ_fake_script)()
+coroutine.wrap(UBXDKX_fake_script)()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiMenu.lua", true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiFarms.lua", true))()
