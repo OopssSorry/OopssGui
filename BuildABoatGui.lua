@@ -34,9 +34,9 @@ local Corner_2 = Instance.new("UICorner")
 --Properties:
 
 OopssGuiBABFT.Name = "OopssGuiBABFT"
-OopssGuiBABFT.Parent = game.Workspace.Folder
+OopssGuiBABFT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 OopssGuiBABFT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-OopssGuiBABFT.ResetOnSpawn = false
+OopssGuiBABFT.ResetOnSpawn = fals
 
 Sad.Name = "Sad"
 Sad.Parent = OopssGuiBABFT
