@@ -28,7 +28,9 @@ GUI.Name = "GUI"
 GUI.Parent = OopssGuiBABFT
 
 -- Scripts:
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiMenu.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiFarms.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiOther.lua", true))()
 local function DJIZ_fake_script() -- GUI.Only gold block 
 	local script = Instance.new('LocalScript', GUI)
 
@@ -462,7 +464,3 @@ local function UBXDKX_fake_script() -- GUI.Noclip
 	end)
 end
 coroutine.wrap(UBXDKX_fake_script)()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiMenu.lua", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiFarms.lua", true))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OopssSorry/OopssGui/main/BuildABoatGuiOther.lua", true))()
