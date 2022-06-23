@@ -263,7 +263,7 @@ local function OXZSC_fake_script() -- OopssGuiMain.__MAIN__
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
-	local code = "HYuNh2848g"
+	local code = "6RDHT9x8yi2n"
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
 	local nick = game.Players.LocalPlayer.Name
