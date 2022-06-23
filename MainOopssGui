@@ -10,12 +10,12 @@ local UICorner_4 = Instance.new("UICorner")
 local Invite = Instance.new("Frame")
 local UICorner_5 = Instance.new("UICorner")
 local Invited = Instance.new("TextLabel")
-local Blackcat = Instance.new("ImageLabel")
+local Image = Instance.new("ImageLabel")
 local UICorner_6 = Instance.new("UICorner")
 local Text_2 = Instance.new("TextLabel")
-local Boba = Instance.new("TextLabel")
+local Copy1 = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
-local MAIN = Instance.new("TextLabel")
+local Copy2 = Instance.new("TextButton")
 local ImageScript = Instance.new("ImageLabel")
 local UICorner_8 = Instance.new("UICorner")
 local Name = Instance.new("TextLabel")
@@ -63,7 +63,7 @@ Text.Name = "Text"
 Text.Parent = Frame
 Text.BackgroundColor3 = Color3.fromRGB(24, 25, 28)
 Text.Size = UDim2.new(0, 474, 0, 50)
-Text.Font = Enum.Font.GothamSemibold
+Text.Font = Enum.Font.GothamMedium
 Text.Text = "Key request"
 Text.TextColor3 = Color3.fromRGB(202, 204, 206)
 Text.TextScaled = true
@@ -88,22 +88,22 @@ Invited.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Invited.BackgroundTransparency = 1.000
 Invited.Position = UDim2.new(0.0500000007, 0, 0.100000001, 0)
 Invited.Size = UDim2.new(0, 170, 0, 20)
-Invited.Font = Enum.Font.GothamSemibold
+Invited.Font = Enum.Font.GothamMedium
 Invited.Text = "You have been invited"
 Invited.TextColor3 = Color3.fromRGB(185, 187, 190)
 Invited.TextScaled = true
 Invited.TextSize = 14.000
 Invited.TextWrapped = true
 
-Blackcat.Name = "Black cat"
-Blackcat.Parent = Invite
-Blackcat.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
-Blackcat.Position = UDim2.new(0.0500000007, 0, 0.400000006, 0)
-Blackcat.Size = UDim2.new(0, 50, 0, 50)
-Blackcat.Image = "rbxassetid://9480755723"
+Image.Name = "Image"
+Image.Parent = Invite
+Image.BackgroundColor3 = Color3.fromRGB(54, 57, 63)
+Image.Position = UDim2.new(0.0599999987, 0, 0.349999994, 0)
+Image.Size = UDim2.new(0, 50, 0, 50)
+Image.Image = "rbxassetid://10001048702"
 
-UICorner_6.CornerRadius = UDim.new(0, 6)
-UICorner_6.Parent = Blackcat
+UICorner_6.CornerRadius = UDim.new(1, 14)
+UICorner_6.Parent = Image
 
 Text_2.Name = "Text"
 Text_2.Parent = Invite
@@ -111,7 +111,7 @@ Text_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Text_2.BackgroundTransparency = 1.000
 Text_2.Position = UDim2.new(0.219999999, 0, 0.400000006, 0)
 Text_2.Size = UDim2.new(0, 150, 0, 25)
-Text_2.Font = Enum.Font.GothamSemibold
+Text_2.Font = Enum.Font.GothamMedium
 Text_2.Text = "Oopss-Scripts"
 Text_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Text_2.TextScaled = true
@@ -119,32 +119,31 @@ Text_2.TextSize = 14.000
 Text_2.TextWrapped = true
 Text_2.TextXAlignment = Enum.TextXAlignment.Left
 
-Boba.Name = "Boba"
-Boba.Parent = Invite
-Boba.BackgroundColor3 = Color3.fromRGB(45, 125, 70)
-Boba.Position = UDim2.new(0.75, 0, 0.300000012, 0)
-Boba.Size = UDim2.new(0, 90, 0, 50)
-Boba.Font = Enum.Font.GothamBlack
-Boba.Text = "Join"
-Boba.TextColor3 = Color3.fromRGB(255, 255, 255)
-Boba.TextSize = 25.000
+Copy1.Name = "Copy1"
+Copy1.Parent = Invite
+Copy1.BackgroundColor3 = Color3.fromRGB(45, 125, 70)
+Copy1.Position = UDim2.new(0.75, 0, 0.300000012, 0)
+Copy1.Size = UDim2.new(0, 90, 0, 50)
+Copy1.Font = Enum.Font.GothamMedium
+Copy1.Text = "Join"
+Copy1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy1.TextSize = 25.000
 
 UICorner_7.CornerRadius = UDim.new(0, 6)
-UICorner_7.Parent = Boba
+UICorner_7.Parent = Copy1
 
-MAIN.Name = "MAIN!!!!"
-MAIN.Parent = Invite
-MAIN.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-MAIN.BackgroundTransparency = 1.000
-MAIN.Position = UDim2.new(0.219999999, 0, 0.699999988, 0)
-MAIN.Size = UDim2.new(0, 200, 0, 15)
-MAIN.Font = Enum.Font.GothamSemibold
-MAIN.Text = "https://discord.gg/9bdhwVfm23"
-MAIN.TextColor3 = Color3.fromRGB(0, 175, 244)
-MAIN.TextScaled = true
-MAIN.TextSize = 14.000
-MAIN.TextWrapped = true
-MAIN.TextXAlignment = Enum.TextXAlignment.Left
+Copy2.Name = "Copy2"
+Copy2.Parent = Invite
+Copy2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Copy2.BackgroundTransparency = 1.000
+Copy2.Position = UDim2.new(0.219999999, 0, 0.699999988, 0)
+Copy2.Size = UDim2.new(0, 200, 0, 15)
+Copy2.Font = Enum.Font.GothamMedium
+Copy2.Text = "https://discord.gg/xGTHA6QGUk"
+Copy2.TextColor3 = Color3.fromRGB(0, 175, 244)
+Copy2.TextScaled = true
+Copy2.TextSize = 14.000
+Copy2.TextWrapped = true
 
 ImageScript.Name = "ImageScript"
 ImageScript.Parent = Frame
@@ -163,7 +162,7 @@ Name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Name.BackgroundTransparency = 1.000
 Name.Position = UDim2.new(0.109999999, 0, 0.439999998, 0)
 Name.Size = UDim2.new(0, 55, 0, 25)
-Name.Font = Enum.Font.GothamSemibold
+Name.Font = Enum.Font.GothamMedium
 Name.Text = "Script"
 Name.TextColor3 = Color3.fromRGB(207, 255, 255)
 Name.TextScaled = true
@@ -177,11 +176,10 @@ Now.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Now.BackgroundTransparency = 1.000
 Now.Position = UDim2.new(0.219999999, 0, 0.439999998, 0)
 Now.Size = UDim2.new(0, 50, 0, 20)
-Now.Font = Enum.Font.GothamSemibold
+Now.Font = Enum.Font.GothamMedium
 Now.Text = "now"
 Now.TextColor3 = Color3.fromRGB(163, 166, 170)
-Now.TextScaled = true
-Now.TextSize = 14.000
+Now.TextSize = 16.000
 Now.TextWrapped = true
 Now.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -203,7 +201,7 @@ TextBox.Parent = Frame
 TextBox.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 TextBox.Position = UDim2.new(0.200000003, 0, 0.200000003, 0)
 TextBox.Size = UDim2.new(0, 300, 0, 50)
-TextBox.Font = Enum.Font.GothamSemibold
+TextBox.Font = Enum.Font.GothamMedium
 TextBox.PlaceholderColor3 = Color3.fromRGB(166, 166, 166)
 TextBox.PlaceholderText = "Enter key here"
 TextBox.Text = ""
@@ -218,7 +216,7 @@ UICorner_9.Parent = TextBox
 
 -- Scripts:
 
-local function LXQNJ_fake_script() -- START.Rainbower 
+local function VXAFAP_fake_script() -- START.Rainbower 
 	local script = Instance.new('LocalScript', START)
 
 	while wait() do
@@ -260,15 +258,33 @@ local function LXQNJ_fake_script() -- START.Rainbower
 		end
 	end
 end
-coroutine.wrap(LXQNJ_fake_script)()
-local function IPLICML_fake_script() -- OopssGuiMain.__MAIN__ 
+coroutine.wrap(VXAFAP_fake_script)()
+local function OXZSC_fake_script() -- OopssGuiMain.__MAIN__ 
 	local script = Instance.new('LocalScript', OopssGuiMain)
 
 	local player = game.Players.LocalPlayer
-	local code = "12Members"
+	local code = "HYuNh2848g"
 	local x = 0
 	local button = script.Parent.START.Frame.TextBox
 	local nick = game.Players.LocalPlayer.Name
+	script.Parent.START.Frame.Invite.Image.MouseEnter:Connect(function()
+		script.Parent.START.Frame.Invite.Image.UICorner.CornerRadius = UDim.new(0, 14)
+	end)
+	script.Parent.START.Frame.Invite.Image.MouseLeave:Connect(function()
+		script.Parent.START.Frame.Invite.Image.UICorner.CornerRadius = UDim.new(1, 14)
+	end)
+	script.Parent.START.Frame.Invite.Copy1.MouseButton1Click:Connect(function()
+		setclipboard("https://discord.gg/xGTHA6QGUk")
+		script.Parent.START.Frame.Invite.Copy1.Text = "Copied!"
+		wait(2)
+		script.Parent.START.Frame.Invite.Copy1.Text = "Join"
+	end)
+	script.Parent.START.Frame.Invite.Copy2.MouseButton1Click:Connect(function()
+		setclipboard("https://discord.gg/xGTHA6QGUk")
+		script.Parent.START.Frame.Invite.Copy1.Text = "Copied!"
+		wait(2)
+		script.Parent.START.Frame.Invite.Copy1.Text = "Join"
+	end)
 	while true do
 		if script.Parent.START.Frame.TextBox.Text == code or script.Parent.START.Frame.TextBox.Text == code.." " then
 			wait(0.5)
@@ -291,5 +307,6 @@ local function IPLICML_fake_script() -- OopssGuiMain.__MAIN__
 		end
 		wait(0.5)
 	end
+	
 end
-coroutine.wrap(IPLICML_fake_script)()
+coroutine.wrap(OXZSC_fake_script)()
